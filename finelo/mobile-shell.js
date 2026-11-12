@@ -6,12 +6,15 @@
   const root = document.documentElement;
   const page = location.pathname.split('/').pop();
   const quiz = new URLSearchParams(location.search).get('quiz') === site;
-  const home = page === 'mobile-home.html';
+  const homePath = './' + site + '-home.html';
+  const home = page === site + '-home.html';
+  const ai = site === 'finelo' && /^finelo-ai(?:[.-])/.test(page);
   const tools = page === site + '-tools.html';
   const name = site === 'finelo' ? 'Finelo' : 'Coursiv';
   root.classList.add('mobile-layout');
   root.dataset.mobileSite = site;
   if (quiz) root.classList.add('mobile-quiz');
+  if (home) root.classList.add('mobile-site-home');
   if (native) root.classList.add('replica-native');
 
   const toolbar = document.createElement('div');
@@ -25,14 +28,14 @@
     back.addEventListener('click', () => {
       if (document.referrer && new URL(document.referrer).origin === location.origin &&
           !new URL(document.referrer).pathname.endsWith('/app-demo.html')) history.back();
-      else location.replace('./mobile-home.html');
+      else location.replace(homePath);
     });
     toolbar.append(back);
   }
   const title = document.createElement('span');
   title.textContent = name + (quiz ? ' · Quiz' : tools ? ' · Tools' : '');
   toolbar.append(title);
-  document.body.append(toolbar);
+  if (!home) document.body.append(toolbar);
 
   if (!quiz) {
     const tabs = document.createElement('div');
@@ -40,10 +43,13 @@
     tabs.setAttribute('role', 'navigation');
     tabs.setAttribute('aria-label', 'App navigation');
     const paths = [
-      ['Home', './mobile-home.html', home, 'M3 10l9-7 9 7v10H3z M9 20v-6h6v6'],
+      ['Home', homePath, home, 'M3 10l9-7 9 7v10H3z M9 20v-6h6v6'],
       ['Quiz', './?quiz=' + site, false, 'M6 3h12v18H6z M9 8h6 M9 12h6 M9 16h4'],
-      ['Tools', './' + site + '-tools.html', tools, 'M3 3h7v7H3z M14 3h7v7h-7z M3 14h7v7H3z M14 14h7v7h-7z'],
+      [site === 'coursiv' ? 'AI Tools' : 'Calculators', './' + site + '-tools.html', tools, 'M3 3h7v7H3z M14 3h7v7h-7z M3 14h7v7H3z M14 14h7v7h-7z'],
     ];
+    if (site === 'finelo') paths.splice(2, 0, [
+      'AI Tools', './finelo-ai.html', ai, 'M12 2l2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5z',
+    ]);
     for (const [label, href, active, icon] of paths) {
       const link = document.createElement('a');
       link.href = href;
@@ -70,7 +76,7 @@
   });
   if (native) void capacitor.Plugins.App?.addListener('backButton', ({canGoBack}) => {
     if (canGoBack) window.history.back();
-    else if (!home) location.replace('./mobile-home.html');
+    else if (!home) location.replace(homePath);
     else void capacitor.Plugins.App.exitApp();
   });
 })();

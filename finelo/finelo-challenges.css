@@ -54,7 +54,3 @@
 .social-heatmap [data-band="4"]{--month-color:#58d77c}
 .social-heatmap-legend{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:13px}
 .social-heatmap-legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-inline-end:5px;background:var(--month-color)}
-.app-course{display:block;margin-top:12px;padding:12px;border:1px solid var(--challenge-border);border-radius:12px;text-decoration:none}
-.app-course:hover{background:var(--challenge-surface)}
-.app-course h4,.app-course p{margin:0}
-.app-course p{margin-top:5px}

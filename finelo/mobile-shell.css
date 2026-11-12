@@ -12,8 +12,10 @@ html.mobile-layout body {
   padding-bottom: var(--app-bottom);
 }
 html.mobile-layout.mobile-quiz body { padding-bottom: env(safe-area-inset-bottom, 0px); }
-.mobile-layout [aria-label="Home navigation"],
-.mobile-layout .home-footer, .mobile-layout .site-footer { display: none !important; }
+.mobile-layout:not(.mobile-site-home) [aria-label="Home navigation"],
+.mobile-layout:not(.mobile-site-home) :is(.home-footer, .site-footer) { display: none !important; }
+html.mobile-layout.mobile-site-home body { padding-top: env(safe-area-inset-top, 0px); }
+.mobile-site-home:has(.nav-menu-button[aria-expanded="true"], .nav-toggle[aria-expanded="true"]) .app-tabbar { visibility: hidden; }
 .app-topbar, .app-tabbar {
   position: fixed; inset-inline: 0; z-index: 900;
   display: flex; align-items: center;
@@ -42,13 +44,3 @@ html.mobile-layout.mobile-quiz body { padding-bottom: env(safe-area-inset-bottom
 .app-tabbar a[aria-current="page"] { color: var(--app-accent); }
 .app-tabbar a[aria-current="page"] svg { background: color-mix(in srgb, var(--app-accent), white 88%); }
 .app-tabbar svg { width: 21px; height: 21px; padding: 3px 10px; box-sizing: content-box; border-radius: 12px; }
-.app-dashboard { margin: 0; color: #19182b; background: #f6f6fa; font: 16px/1.45 system-ui, sans-serif; }
-.app-dashboard main { max-width: 600px; margin: auto; padding: 24px 18px; }
-.app-dashboard h1 { font-size: clamp(28px, 8vw, 40px); letter-spacing: -.04em; margin: 0 0 8px; }
-.app-dashboard h2 { font-size: 18px; margin: 0 0 4px; }
-.app-dashboard p { margin: 0; }
-.app-intro { padding: 22px; border-radius: 24px; background: var(--app-accent); color: white; }
-.app-shortcuts { display: grid; gap: 12px; margin-top: 18px; }
-.app-shortcuts a { color: inherit; display: block; text-decoration: none; background: white; padding: 16px 42px 16px 18px; border-radius: 18px; position: relative; }
-.app-shortcuts a::after { content: '›'; position: absolute; inset-inline-end: 18px; top: 22px; font-size: 24px; color: var(--app-accent); }
-.app-shortcuts a p { color: #555367; font-size: 14px; }
