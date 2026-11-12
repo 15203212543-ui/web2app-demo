@@ -1,0 +1,14 @@
+.fb-panel{padding:32px;border-radius:24px;background:#1c1a24;border:1px solid #9287b540}
+.finelo-about .fb-statement h2{font-size:24px;font-weight:600;line-height:32px;margin:0 0 16px}
+.fb-statement p{margin:0 0 24px;line-height:24px}
+.fb-descriptors{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:0;padding:0;list-style:none}
+.fb-descriptors li{background:#1c1a24;border:1px solid #ffffff1a;border-radius:12px;padding:16px;text-align:center;font-weight:600;line-height:24px;overflow-wrap:anywhere}
+.fb-descriptors li:hover{background:#262330}
+.fb-descriptors code{font:inherit}
+.fb-actions{display:flex;gap:12px;flex-wrap:wrap}
+.light .fb-panel{background:#f4f1fc}
+.light .fb-descriptors li{background:white}
+@media(max-width:1023px){.fb-descriptors{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:767px){.fb-descriptors{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.fb-panel{padding:20px}.finelo-about .fb-statement{margin-inline:16px}}
+@media(max-width:639px){.fb-descriptors{grid-template-columns:1fr}}

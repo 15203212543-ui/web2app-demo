@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Formula Generator | Coursiv</title><link rel="stylesheet" href="./coursiv-home.css?v=6"><link rel="stylesheet" href="./coursiv-tools.css"><script src="./coursiv-home.js?v=2" defer></script><script src="./coursiv-formula-library.js?v=2" defer></script><script src="./coursiv-formula.js?v=4" defer></script><meta name="replica-mobile" content="coursiv"><link rel="stylesheet" href="./mobile-shell.css"><script src="./mobile-shell.js" defer></script></head><body>
+  <header>
+    <nav aria-label="Home navigation">
+      <a href="./coursiv-home.html"><img src="./assets/coursiv-home-logo.svg" width="75" height="24" alt="Coursiv"></a>
+      <button class="nav-toggle" type="button" aria-controls="header-links" aria-expanded="false" aria-label="Open navigation">☰</button>
+      <div class="header-links" id="header-links">
+        <a href="./coursiv-home.html">Home</a>
+        <details name="coursiv-header"><summary>Explore</summary><div class="nav-popover">
+          <p>Product</p><a href="./coursiv-about.html">What is Coursiv</a><a href="./coursiv-pricing.html">Pricing</a><a href="./coursiv-reviews.html">Reviews</a>
+          <p>Account &amp; billing</p><a href="./coursiv-login.html">Login</a><a href="./coursiv-cancel.html">Cancel subscription</a><a href="./coursiv-charge.html">Why was I charged?</a>
+        </div></details>
+        <a href="./coursiv-certificate.html">AI Certificate</a>
+        <a href="./coursiv-tools.html">Free AI tools</a>
+        <a href="https://coursiv.io/blog">Blog</a>
+        <details name="coursiv-header"><summary>Help</summary><div class="nav-popover">
+          <p class="mobile-help-label">Help</p>
+          <a href="https://support.coursiv.io/en/support/home?utm_source=io&amp;utm_placement=header">Support Center</a><a href="./coursiv-faq.html">FAQ</a>
+        </div></details>
+      </div>
+      <div class="header-actions">
+        <details name="coursiv-header"><summary aria-label="Select language"><span aria-hidden="true">🇬🇧</span></summary><div class="nav-popover">
+          <span aria-current="true">English</span><a lang="es" href="https://coursiv.io/es/">Español</a><a lang="fr" href="https://coursiv.io/fr/">Français</a><a lang="pt" href="https://coursiv.io/pt/">Português</a><a lang="de" href="https://coursiv.io/de/">Deutsch</a>
+        </div></details>
+        <a class="header-login" href="https://app.coursiv.io">Log in</a>
+        <a class="cta" href="./?quiz=coursiv">Start now</a>
+      </div>
+    </nav>
+  </header><main class="frame tools-page optimizer formula-page">
+<p class="optimizer-crumb"><a href="./coursiv-home.html">Home</a> / <a href="./coursiv-tools.html">Free AI tools</a> / Formula Generator</p>
+<p>Free tool. No signup. Runs in your browser.</p>
+<h1>Excel and Google Sheets Formula Generator</h1>
+<p>Describe what you need in plain words, fill in your ranges, and copy a working formula for Excel or Google Sheets.</p>
+<section class="tools-hero">
+<form id="formula-form" class="tools-demo">
+<fieldset><legend>Tool mode</legend><label><input type="radio" name="mode" value="generate" checked> Generate a formula</label><label><input type="radio" name="mode" value="explain"> Explain a formula</label></fieldset>
+<fieldset><legend>Spreadsheet</legend><label><input type="radio" name="sheet" value="excel" checked> Excel</label><label><input type="radio" name="sheet" value="sheets"> Google Sheets</label></fieldset>
+<label id="formula-label" for="formula-query">What should the formula do?</label>
+<textarea id="formula-query" rows="4" placeholder="e.g. count how many rows say Paid"></textarea>
+<div class="opt-actions"><button id="formula-submit" class="cta" disabled>Find my formula</button><button id="formula-browse" type="button">Browse all recipes</button></div>
+<div id="formula-examples"><p>Try an example</p>
+<button type="button" data-example="sum sales where region is North">sum sales where region is North</button>
+<button type="button" data-example="days between two dates">days between two dates</button>
+<button type="button" data-example="first name from full name">first name from full name</button>
+<button type="button" data-example="flag duplicates">flag duplicates</button></div>
+<p id="formula-match-message" role="status"></p><div id="formula-related" hidden></div>
+</form>
+<div class="tools-demo"><p id="formula-status" role="status">Your formula appears here</p>
+<div id="formula-recipes" hidden><p>Choose a recipe</p><div id="formula-categories" class="opt-actions" role="group" aria-label="Recipe category"></div><ul id="formula-recipe-list"></ul></div>
+<div id="formula-result" hidden><div id="formula-fields"></div><pre id="formula-output" translate="no" tabindex="0"></pre><button type="button" id="formula-copy">Copy</button><p id="formula-copy-status" role="status"></p><p id="formula-explanation"></p></div>
+</div></section>
+<section><h2>How to use the Formula Generator</h2><div class="tools-grid"><article><h3>Describe the task</h3><p>Say what to add, count, look up, or extract.</p></article><article><h3>Fill in your ranges</h3><p>Replace the sample references with your spreadsheet columns.</p></article><article><h3>Copy into your sheet</h3><p>Read the explanation before adapting the formula.</p></article></div></section>
+<section class="tools-demo"><h2>Learn practical spreadsheet skills</h2><a class="cta" href="./?quiz=coursiv">See my learning plan</a></section>
+<section><h2>Frequently asked questions</h2><details open><summary>Does the formula generator use AI?</summary><p>No. It uses local recipes and does not send your input to a service.</p></details><details><summary>Can it explain a formula I already have?</summary><p>Use Explain a formula to see function nesting, referenced ranges, and a formatted copy. The formula is not executed.</p></details></section>
+</main>  <footer class="site-footer frame">
+    <div class="footer-brand">
+      <a href="./coursiv-home.html"><img src="./assets/coursiv-home-logo.svg" width="75" height="24" alt="Coursiv"></a>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/coursiv_io/">Instagram</a>
+        <a href="https://www.linkedin.com/company/coursivapp/">LinkedIn</a>
+        <a href="https://www.youtube.com/@Coursiv">YouTube</a>
+        <a href="https://www.reddit.com/r/coursivofficial/">Reddit</a>
+      </div>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <div><h2>Coursiv</h2><ul><li><a href="./coursiv-home.html">Home</a></li><li><a href="./coursiv-about.html">What is Coursiv</a></li><li><a href="./coursiv-pricing.html">Pricing</a></li><li><a href="./coursiv-reviews.html">Reviews</a></li><li><a href="./coursiv-certificate.html">AI Certificate Program</a></li><li><a href="./coursiv-tools.html">Free AI tools</a></li></ul></div>
+      <div><h2>Account &amp; billing</h2><ul><li><a href="./coursiv-login.html">Login</a></li><li><a href="./coursiv-cancel.html">Cancel subscription</a></li><li><a href="./coursiv-charge.html">Why was I charged?</a></li><li><a href="./coursiv-faq.html">FAQ</a></li></ul></div>
+      <div><h2>Explore the blog</h2><ul><li><a href="https://coursiv.io/blog">Blog</a></li><li><a href="https://coursiv.io/blog/categories/ai-guides">AI guides</a></li><li><a href="https://coursiv.io/blog/categories/ai-careers">AI careers</a></li><li><a href="https://coursiv.io/blog/tags/productivity">Productivity</a></li><li><a href="https://coursiv.io/blog/categories/ai-news">Latest AI news</a></li><li><a href="https://coursiv.io/blog/authors">Editorial team</a></li></ul></div>
+      <div><h2>Compare AI tools</h2><ul><li><a href="https://coursiv.io/blog/tags/chatgpt">ChatGPT</a></li><li><a href="https://coursiv.io/blog/tags/claude">Claude</a></li><li><a href="https://coursiv.io/blog/tags/ai-tools">AI tools</a></li><li><a href="https://coursiv.io/blog/tags/ai-comparison">AI comparison</a></li></ul></div>
+      <div><h2>Help &amp; legal</h2><ul><li><a href="https://support.coursiv.io/en/support/home?utm_source=io&amp;utm_placement=footer">Support Center</a></li><li><a href="mailto:support@coursiv.io">support@coursiv.io</a></li><li><a href="https://legal.coursiv.io/privacy">Privacy Policy</a></li><li><a href="https://legal.coursiv.io/terms">Terms and Conditions</a></li><li><a href="https://legal.coursiv.io/subscription">Subscription Terms</a></li></ul></div>
+    </nav>
+    <div class="footer-disclaimer">
+      <strong>Disclaimer</strong>
+      <p>Coursiv as an educational platform does not provide any financial or career advice. Please consult with your financial or career advisor first before making any career decisions. There is no any bias towards or against any stocks or companies mentioned in this page.</p>
+    </div>
+    <div class="footer-bottom">
+      <p>Coursiv. All right reserved. © 2026. Coursiv Limited. Limassol, Cyprus</p>
+      <div class="footer-languages" aria-label="Languages">
+        <span lang="en">English</span><a lang="es" href="https://coursiv.io/es/">Español</a><a lang="fr" href="https://coursiv.io/fr/">Français</a><a lang="pt" href="https://coursiv.io/pt/">Português</a><a lang="de" href="https://coursiv.io/de/">Deutsch</a>
+      </div>
+    </div>
+  </footer></body></html>

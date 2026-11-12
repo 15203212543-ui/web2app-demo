@@ -1,0 +1,100 @@
+.certificate { color:#14182b; background:white; }
+.cert-header nav,.cert-wrap { width:min(100% - 64px,1200px); margin-inline:auto; }
+.cert-header nav { min-height:72px; display:flex; align-items:center; gap:36px; }
+.cert-nav,.cert-actions { display:flex; align-items:center; gap:25px; }
+.cert-actions { margin-left:auto; gap:12px; }
+.cert-actions>a { border-radius:999px; padding:8px 18px; border:1px solid #ecebf2; white-space:nowrap; }
+.cert-actions .cert-cta { border:0; padding:8px 18px; border-radius:999px; }
+.cert-actions .cert-cta span { display:none; }
+.cert-grid { display:grid; grid-template-columns: .95fr 1fr; align-items:center; gap:clamp(24px,6vw,90px); }
+.cert-hero { background:radial-gradient(ellipse at 85% 100%,#f0efff 0%,transparent 54%),radial-gradient(ellipse at 20% 100%,#faf6ef 0%,transparent 49%),white; padding:clamp(64px,10vw,132px) 0; }
+.cert-chip { display:inline-block; background:#fff; border:1px solid #efedf7; border-radius:24px; box-shadow:0 2px 5px #15172b0b; padding:7px 14px; margin:0 0 18px; font-size:13px; font-weight:650; }
+.cert-chip b { color:#5540eb; margin-right:6px; }
+.certificate h1,.certificate h2 { margin:0 0 18px; line-height:1.05; letter-spacing:-.035em; }
+.certificate h1 { font-size:clamp(38px,5.4vw,67px); }
+.certificate h2 { font-size:clamp(30px,4vw,47px); }
+.certificate p { line-height:1.55; }
+.cert-lead { color:#51536a; font-size:clamp(16px,1.7vw,20px); max-width:460px; }
+.cert-cta { display:inline-flex; gap:10px; align-items:center; background:#4d32f1; color:white; border-radius:8px; padding:17px 28px; margin:13px 0 0; }
+.cert-cta:hover { background:#3e26d3; }
+.cert-header .cert-cta { margin:0; }
+.cert-count { color:#606075; font-size:13px; margin:14px 0 0; }
+.cert-count strong { color:#14182b; }
+.cert-image { width:100%; height:auto; }
+.cert-program { background:#e2dcfa; padding:48px 0; }
+.cert-card { border-radius:16px; overflow:hidden; background:white; display:grid; grid-template-columns:7fr 3fr; }
+.cert-card>div,.cert-card aside { padding:clamp(24px,4vw,48px); }
+.cert-card h2 { margin-top:14px; }
+.cert-card aside { background:#f5f2ff; text-align:center; display:grid; justify-items:center; align-content:center; gap:8px; }
+.cert-card aside p { margin:0; color:#5f6076; }
+.cert-facts { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:16px 0 0; }
+.cert-facts div { border-radius:12px; background:#fff; padding:16px 22px; }
+.cert-facts dt { color:#606075; font-size:14px; }
+.cert-facts dd { margin:6px 0 0; font-weight:650; }
+.cert-section,.cert-award { padding-block:clamp(44px,7vw,95px); }
+.cert-award { background:#f5f3ff; }
+.cert-accordions { display:grid; gap:12px; margin-top:24px; }
+.cert-accordions details { border:1px solid #e8e6f3; border-radius:12px; padding:0 22px; background:#fff; }
+.cert-accordions summary { cursor:pointer; padding:18px 26px 18px 0; font-weight:650; list-style:none; position:relative; }
+.cert-accordions summary:after { content:"+"; position:absolute; right:0; color:#4d32f1; }
+.cert-accordions details[open] summary:after { content:"−"; }
+.cert-accordions small { color:#65647a; font-weight:400; margin-left:8px; }
+.cert-accordions ul { padding-left:22px; line-height:1.8; }
+.cert-center { text-align:center; }
+.cert-center>a+h2 { margin-top:56px; }
+.cert-logos { display:flex; gap:24px; flex-wrap:wrap; justify-content:center; align-items:center; }
+.cert-logos img { width:105px; height:55px; object-fit:contain; }
+@media(max-width:740px) {
+  .cert-header nav,.cert-wrap { width:calc(100% - 32px); }
+  .cert-header nav { gap:8px; }
+  .cert-nav { display:none; }
+  .cert-grid,.cert-card { grid-template-columns:1fr; }
+  .cert-hero { padding-block:44px; }
+  .cert-facts div { padding:12px; }
+  .cert-facts { gap:6px; }
+}
+
+/* The shared home navigation padding otherwise adds a second mobile gutter. */
+.cert-header nav{padding-inline:0}
+@media(max-width:740px){
+  .cert-header nav{min-height:48px}
+  .cert-header nav>a>img{width:79px;height:24px}
+  .cert-actions>a{font-size:13px;padding-inline:12px}
+  .cert-actions .cert-cta{padding-inline:12px}
+}
+
+@media(max-width:740px){
+  .cert-hero{padding-block:100px 120px}
+  .cert-hero .cert-wrap{width:calc(100% - 64px)}
+  .cert-hero .cert-grid{gap:32px;text-align:center}
+  .cert-hero .cert-chip{margin:0 0 20px;padding:7px 14px;font-size:13px;line-height:19px}
+  .cert-hero h1{font-size:36px;line-height:1.02;margin:0}
+  .cert-hero .cert-lead{font-size:18px;line-height:1.65;margin:24px auto 0}
+  .cert-hero .cert-cta{margin-top:32px;min-height:60px;font-size:17px;padding:14px 28px}
+  .cert-hero .cert-count{margin-top:16px;line-height:21px}
+  .cert-hero .cert-image{max-width:320px;justify-self:center}
+}
+
+@media(max-width:740px){
+  .cert-program{padding-block:48px 64px}
+  .cert-program .cert-wrap{width:calc(100% - 64px)}
+  .cert-card>div{padding:24px 40px 32px}
+  .cert-card h2{font-size:30px;line-height:1.04}
+  .cert-card aside{padding:24px}
+  .cert-facts{grid-template-columns:1fr;gap:14px;padding:24px 32px;background:#f0eeff;border-radius:16px}
+  .cert-facts div{padding:0;background:transparent}
+  .cert-facts dd{margin-top:4px}
+}
+
+.cert-accordions .cert-course{padding:0;background:transparent;overflow:hidden}
+.cert-course summary{padding:13px 42px 13px 16px;font-size:15px;line-height:24.75px}
+.cert-course summary::after{right:16px}
+.cert-course ul{padding:0;margin:0;list-style:none;background:white}
+.cert-course li{position:relative;padding:10px 16px 10px 42px;font-size:15px;line-height:24.75px;border-top:1px solid #efedf7}
+.cert-course li::before{content:"";position:absolute;left:19px;top:19px;width:7px;height:7px;border:1px solid #aaa4bc;border-radius:50%}
+
+.cert-trustpilot{display:grid;grid-auto-flow:column;grid-auto-columns:clamp(220px,31%,325px);gap:12px;width:min(100%,1018px);min-height:240px;margin:18px auto 10px;overflow-x:auto;scroll-snap-type:x mandatory;text-align:left}
+.cert-trustpilot article{scroll-snap-align:start;border-radius:8px;padding:16px;background:#f8f9fa}
+.cert-trustpilot h3{font-size:15px;margin:12px 0 6px}
+.cert-trustpilot p{font-size:14px;margin:6px 0 0}
+.cert-review-invited{color:#596064}

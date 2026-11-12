@@ -1,0 +1,34 @@
+.finelo-about section{margin-block:64px;scroll-margin-top:32px}
+.fa-hero{text-align:center;max-width:880px;margin-inline:auto}
+.fa-hero h1{font-size:clamp(34px,5vw,60px);line-height:1.1;margin:20px 0}
+.fa-hero p{max-width:740px;margin:0 auto 24px}
+.fa-secondary{background:transparent;border:1px solid currentColor}
+.fa-toc,.fa-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:16px}
+.fa-toc a,.fa-grid article,.fa-faq details{border:1px solid #9287b540;border-radius:16px;background:#ffffff0b;padding:20px;color:inherit}
+.fa-toc a{text-decoration:none}
+.finelo-about h2{font-size:clamp(28px,4vw,44px);line-height:1.15;margin:0 0 20px}
+.finelo-about h3{margin:0 0 8px}
+.finelo-about article p{margin:0}
+.fa-grid small{display:block;color:#9c96ff;margin-bottom:12px}
+#trust .fa-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+#trust article{display:flex;flex-direction:column;padding:28px;border-radius:24px;background:#1c1a24}
+#trust article h3{font-size:20px;line-height:27px;margin:0 0 14px}
+#trust article p{color:#ffffffb3;font-size:15px;line-height:25.5px;margin:0 0 20px}
+#trust article a{margin-top:auto;color:#9796ff;font-size:14px;line-height:21px;font-weight:600}
+.light #trust article{background:#f4f1fc}
+.light #trust article p{color:#3b3655}
+.light #trust article a{color:#5145bd}
+@media(max-width:850px){#trust .fa-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){#trust .fa-grid{grid-template-columns:1fr}}
+.fa-split{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;align-items:center}
+.fa-split img{display:block;width:100%;max-height:440px;object-fit:contain}
+.fa-faq details{margin-top:12px;padding:0;border-color:#1d1d30;background:#12101f}
+.fa-faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 24px;font-size:18px;line-height:1.45;font-weight:600}
+.fa-faq summary::-webkit-details-marker{display:none}
+.fa-faq summary::after{content:"+";color:#9796ff}
+.fa-faq details[open] summary::after{content:"−"}
+.fa-faq details p{margin:0;padding:0 24px 24px;line-height:28px;color:#ffffffb3}
+.light .fa-faq details{background:white;border-color:#5145bd35}
+.light .fa-faq details p{color:#3b3655}
+.fa-contact{text-align:center}
+@media(max-width:720px){.finelo-about section{margin-block:48px}.fa-split{grid-template-columns:1fr;gap:20px}.fa-hero .cta{margin-bottom:8px}}

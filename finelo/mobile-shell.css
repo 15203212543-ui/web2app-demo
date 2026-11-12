@@ -1,0 +1,54 @@
+html.mobile-layout {
+  --app-accent: #5043cb;
+  --app-bar: #fff;
+  --app-ink: #19182b;
+  --app-line: #dedee9;
+  --app-top: calc(54px + env(safe-area-inset-top, 0px));
+  --app-bottom: calc(62px + env(safe-area-inset-bottom, 0px));
+}
+html.mobile-layout[data-mobile-site="finelo"] { --app-accent: #175d45; }
+html.mobile-layout body {
+  padding-top: var(--app-top);
+  padding-bottom: var(--app-bottom);
+}
+html.mobile-layout.mobile-quiz body { padding-bottom: env(safe-area-inset-bottom, 0px); }
+.mobile-layout [aria-label="Home navigation"],
+.mobile-layout .home-footer, .mobile-layout .site-footer { display: none !important; }
+.app-topbar, .app-tabbar {
+  position: fixed; inset-inline: 0; z-index: 900;
+  display: flex; align-items: center;
+  font: 600 15px/1.2 system-ui, sans-serif;
+  color: var(--app-ink); background: var(--app-bar);
+  box-sizing: border-box;
+}
+.app-topbar {
+  top: 0; height: var(--app-top); padding: env(safe-area-inset-top, 0px) 16px 0;
+  gap: 12px; border-bottom: 1px solid var(--app-line);
+}
+.app-back {
+  display: grid; place-items: center; width: 44px; height: 44px;
+  border: 0; background: transparent; color: var(--app-accent); font: inherit;
+  cursor: pointer; font-size: 25px; padding: 0; border-radius: 12px;
+}
+.app-tabbar {
+  bottom: 0; height: var(--app-bottom); padding: 0 8px env(safe-area-inset-bottom, 0px);
+  border-top: 1px solid var(--app-line); justify-content: space-around;
+}
+.app-tabbar a {
+  min-width: 64px; min-height: 48px; flex: 1; display: grid;
+  place-content: center; justify-items: center; gap: 3px;
+  color: #555367; text-decoration: none; font: 600 12px/1.2 system-ui, sans-serif;
+}
+.app-tabbar a[aria-current="page"] { color: var(--app-accent); }
+.app-tabbar a[aria-current="page"] svg { background: color-mix(in srgb, var(--app-accent), white 88%); }
+.app-tabbar svg { width: 21px; height: 21px; padding: 3px 10px; box-sizing: content-box; border-radius: 12px; }
+.app-dashboard { margin: 0; color: #19182b; background: #f6f6fa; font: 16px/1.45 system-ui, sans-serif; }
+.app-dashboard main { max-width: 600px; margin: auto; padding: 24px 18px; }
+.app-dashboard h1 { font-size: clamp(28px, 8vw, 40px); letter-spacing: -.04em; margin: 0 0 8px; }
+.app-dashboard h2 { font-size: 18px; margin: 0 0 4px; }
+.app-dashboard p { margin: 0; }
+.app-intro { padding: 22px; border-radius: 24px; background: var(--app-accent); color: white; }
+.app-shortcuts { display: grid; gap: 12px; margin-top: 18px; }
+.app-shortcuts a { color: inherit; display: block; text-decoration: none; background: white; padding: 16px 42px 16px 18px; border-radius: 18px; position: relative; }
+.app-shortcuts a::after { content: '›'; position: absolute; inset-inline-end: 18px; top: 22px; font-size: 24px; color: var(--app-accent); }
+.app-shortcuts a p { color: #555367; font-size: 14px; }

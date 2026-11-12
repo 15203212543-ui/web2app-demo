@@ -1,0 +1,46 @@
+.cr-frame { width:min(100% - 32px,1120px); margin-inline:auto; }
+.cr-hero { background:radial-gradient(ellipse at 50% 0%,#392056 0%,transparent 68%); padding-block:clamp(48px,6vw,72px); }
+.cr-hero-grid { display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:clamp(24px,4vw,48px); }
+.cr-hero p,.cr-section p { color:#d4cbdc; }
+.cr-eyebrow { text-transform:uppercase; letter-spacing:.15em; font-size:14px; font-weight:600; }
+.cr-hero .cta { margin-top:8px; }
+.cr-rating,.cr-grid>a,.cr-grid>article,.cr-faq details { border:1px solid #ffffff22; border-radius:18px; background:#ffffff0d; padding:24px; }
+.cr-rating { text-align:center; padding-block:38px; }
+.cr-rating strong { display:block; font-size:64px; line-height:1.12; }
+.cr-rating p { margin-bottom:0; }
+.cr-stars { color:#ffbe32; letter-spacing:2px; }
+.cr-section { padding-block:30px; }
+.cr-section h2 { font-size:30px; line-height:1.15; margin:0 0 12px; }
+.cr-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:24px; }
+.cr-grid>a { color:inherit; text-decoration:none; display:grid; gap:4px; }
+.cr-grid>a:hover { border-color:#a898ff; }
+.cr-stores strong { font-size:34px; line-height:1.2; }
+.cr-topics { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.cr-topics h3,.cr-topics p { margin:0; }
+.cr-topics h3 { margin-bottom:8px; }
+.cr-faq { padding-bottom:64px; }
+.cr-faq details { margin-top:10px; padding:16px 20px; }
+.cr-faq summary { list-style:none; cursor:pointer; font-weight:600; display:flex; justify-content:space-between; gap:10px; }
+.cr-faq summary::after { content:"+"; }
+.cr-faq details[open] summary::after { content:"−"; }
+.cr-faq p { margin-bottom:0; }
+.cr-faq a { color:#ccc0ff; }
+@media (max-width:760px) { .cr-hero-grid { grid-template-columns:1fr; } .cr-topics { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:500px) { .cr-grid { grid-template-columns:1fr; } }
+
+/* Match the original page's review typography and spacing at each width. */
+.cr-hero h1 { line-height:1; margin-top:12px; }
+.cr-hero .cr-eyebrow { margin:0; line-height:20px; }
+.cr-hero-grid > div:first-child > p:not(.cr-eyebrow) { margin:20px 0 0; }
+.cr-hero .cta { margin-top:24px; padding-block:14px; }
+.cr-rating strong { font-size:60px; line-height:1; }
+.cr-rating .cr-stars { display:block; margin-top:8px; line-height:24px; }
+.cr-rating p { font-size:14px; line-height:20px; margin-top:8px; }
+.cr-section { padding-block:48px; }
+.cr-section h2 { line-height:36px; margin-bottom:12px; }
+.cr-section > p { margin:0; }
+.cr-stores > a { min-height:178px; }
+@media (max-width:767px) {
+  .cr-hero h1 { font-size:36px; line-height:45px; }
+  .cr-section h2 { font-size:24px; line-height:32px; }
+}

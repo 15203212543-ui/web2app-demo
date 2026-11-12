@@ -1,0 +1,71 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI Prompt Optimizer | Coursiv</title><link rel="stylesheet" href="./coursiv-home.css?v=6"><link rel="stylesheet" href="./coursiv-tools.css?v=4"><script src="./coursiv-home.js?v=2" defer></script><script src="./coursiv-prompt-optimizer.js?v=2" defer></script><meta name="replica-mobile" content="coursiv"><link rel="stylesheet" href="./mobile-shell.css"><script src="./mobile-shell.js" defer></script></head><body>  <header>
+    <nav aria-label="Home navigation">
+      <a href="./coursiv-home.html"><img src="./assets/coursiv-home-logo.svg" width="75" height="24" alt="Coursiv"></a>
+      <button class="nav-toggle" type="button" aria-controls="header-links" aria-expanded="false" aria-label="Open navigation">☰</button>
+      <div class="header-links" id="header-links">
+        <a href="./coursiv-home.html">Home</a>
+        <details name="coursiv-header"><summary>Explore</summary><div class="nav-popover">
+          <p>Product</p><a href="./coursiv-about.html">What is Coursiv</a><a href="./coursiv-pricing.html">Pricing</a><a href="./coursiv-reviews.html">Reviews</a>
+          <p>Account &amp; billing</p><a href="./coursiv-login.html">Login</a><a href="./coursiv-cancel.html">Cancel subscription</a><a href="./coursiv-charge.html">Why was I charged?</a>
+        </div></details>
+        <a href="./coursiv-certificate.html">AI Certificate</a>
+        <a href="./coursiv-tools.html">Free AI tools</a>
+        <a href="https://coursiv.io/blog">Blog</a>
+        <details name="coursiv-header"><summary>Help</summary><div class="nav-popover">
+          <p class="mobile-help-label">Help</p>
+          <a href="https://support.coursiv.io/en/support/home?utm_source=io&amp;utm_placement=header">Support Center</a><a href="./coursiv-faq.html">FAQ</a>
+        </div></details>
+      </div>
+      <div class="header-actions">
+        <details name="coursiv-header"><summary aria-label="Select language"><span aria-hidden="true">🇬🇧</span></summary><div class="nav-popover">
+          <span aria-current="true">English</span><a lang="es" href="https://coursiv.io/es/">Español</a><a lang="fr" href="https://coursiv.io/fr/">Français</a><a lang="pt" href="https://coursiv.io/pt/">Português</a><a lang="de" href="https://coursiv.io/de/">Deutsch</a>
+        </div></details>
+        <a class="header-login" href="https://app.coursiv.io">Log in</a>
+        <a class="cta" href="./?quiz=coursiv">Start now</a>
+      </div>
+    </nav>
+  </header>
+<main class="frame tools-page optimizer">
+<p class="optimizer-crumb"><a href="./coursiv-home.html">Home</a> / <a href="./coursiv-tools.html">Free AI tools</a> / Prompt Optimizer</p>
+<p>Free tool. No signup. Runs in your browser.</p>
+<h1>AI Prompt Optimizer</h1><p>Paste a prompt, get a score out of 100 and a rewritten version that ChatGPT, Claude and Gemini answer better.</p>
+<section class="tools-hero"><div class="tools-demo">
+<label for="opt-input">Your prompt</label><textarea id="opt-input" rows="7" placeholder="e.g. Write a summary of this report for my manager…"></textarea>
+<p>Paste exactly what you would type into ChatGPT, Claude or Gemini. Nothing leaves your browser.</p>
+<div class="opt-actions"><button id="opt-score" class="cta" disabled>Score my prompt</button><button id="opt-example">Try an example</button><button id="opt-clear" hidden>Clear</button></div>
+<p>Scoring is rule-based and runs on this page. It does not send your text to any AI service.</p>
+</div><div class="tools-demo" aria-live="polite">
+<div id="opt-empty"><p>Your score and rewrite appear here</p><p>Nine checks: task, context, audience, format, role, constraints, example, definition of done, specific wording.</p></div>
+<div id="opt-result" hidden><output id="opt-total"></output><p id="opt-verdict"></p><p id="opt-count"></p><ul id="opt-checks"></ul><h2>Improved prompt</h2><p>Replace the bracketed slots before sending. Your original request is kept in the rewrite.</p><textarea id="opt-rewrite" aria-label="Improved prompt" rows="8" readonly></textarea><button id="opt-copy">Copy rewrite</button><p id="opt-copy-status" role="status"></p></div>
+</div></section>
+<section><h2>How to use the Prompt Optimizer</h2><div class="tools-grid"><article><h3>1. Paste your prompt</h3><p>Use the exact text you were about to send.</p></article><article><h3>2. Read the checklist</h3><p>See what each check found and one way to improve it.</p></article><article><h3>3. Copy the rewrite</h3><p>Fill the bracketed slots and remove the ones you do not need.</p></article></div></section>
+<section class="tools-demo"><p>Next step</p><h2>Learn to write prompts that work the first time</h2><p id="opt-learn-copy">Score a prompt above to see which skills to practice next.</p><p id="opt-learn-score" hidden></p><a class="cta" href="./?quiz=coursiv">See my learning plan</a><p>A short quiz first. No payment details.</p></section>
+<section><h2>Frequently asked questions</h2><details open><summary>What does the prompt optimizer check?</summary><p>It checks the task, context, audience, output format, role, constraints, example, definition of done, and specific wording.</p></details><details><summary>Does it work for ChatGPT, Claude and Gemini?</summary><p>Yes. These checks apply to prompts for all three tools.</p></details><details><summary>Is my prompt sent to an AI model?</summary><p>No. The checks and rewrite run in your browser.</p></details><details><summary>Why does the rewrite contain square brackets?</summary><p>They mark details to fill in or remove before using the prompt.</p></details><details><summary>How is this different from a prompt generator?</summary><p>A generator starts from scratch. The optimizer scores your existing prompt and adds slots for missing details.</p></details><p><a href="./coursiv-tools.html">See all free tools</a></p></section></main>
+  <footer class="site-footer frame">
+    <div class="footer-brand">
+      <a href="./coursiv-home.html"><img src="./assets/coursiv-home-logo.svg" width="75" height="24" alt="Coursiv"></a>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/coursiv_io/">Instagram</a>
+        <a href="https://www.linkedin.com/company/coursivapp/">LinkedIn</a>
+        <a href="https://www.youtube.com/@Coursiv">YouTube</a>
+        <a href="https://www.reddit.com/r/coursivofficial/">Reddit</a>
+      </div>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <div><h2>Coursiv</h2><ul><li><a href="./coursiv-home.html">Home</a></li><li><a href="./coursiv-about.html">What is Coursiv</a></li><li><a href="./coursiv-pricing.html">Pricing</a></li><li><a href="./coursiv-reviews.html">Reviews</a></li><li><a href="./coursiv-certificate.html">AI Certificate Program</a></li><li><a href="./coursiv-tools.html">Free AI tools</a></li></ul></div>
+      <div><h2>Account &amp; billing</h2><ul><li><a href="./coursiv-login.html">Login</a></li><li><a href="./coursiv-cancel.html">Cancel subscription</a></li><li><a href="./coursiv-charge.html">Why was I charged?</a></li><li><a href="./coursiv-faq.html">FAQ</a></li></ul></div>
+      <div><h2>Explore the blog</h2><ul><li><a href="https://coursiv.io/blog">Blog</a></li><li><a href="https://coursiv.io/blog/categories/ai-guides">AI guides</a></li><li><a href="https://coursiv.io/blog/categories/ai-careers">AI careers</a></li><li><a href="https://coursiv.io/blog/tags/productivity">Productivity</a></li><li><a href="https://coursiv.io/blog/categories/ai-news">Latest AI news</a></li><li><a href="https://coursiv.io/blog/authors">Editorial team</a></li></ul></div>
+      <div><h2>Compare AI tools</h2><ul><li><a href="https://coursiv.io/blog/tags/chatgpt">ChatGPT</a></li><li><a href="https://coursiv.io/blog/tags/claude">Claude</a></li><li><a href="https://coursiv.io/blog/tags/ai-tools">AI tools</a></li><li><a href="https://coursiv.io/blog/tags/ai-comparison">AI comparison</a></li></ul></div>
+      <div><h2>Help &amp; legal</h2><ul><li><a href="https://support.coursiv.io/en/support/home?utm_source=io&amp;utm_placement=footer">Support Center</a></li><li><a href="mailto:support@coursiv.io">support@coursiv.io</a></li><li><a href="https://legal.coursiv.io/privacy">Privacy Policy</a></li><li><a href="https://legal.coursiv.io/terms">Terms and Conditions</a></li><li><a href="https://legal.coursiv.io/subscription">Subscription Terms</a></li></ul></div>
+    </nav>
+    <div class="footer-disclaimer">
+      <strong>Disclaimer</strong>
+      <p>Coursiv as an educational platform does not provide any financial or career advice. Please consult with your financial or career advisor first before making any career decisions. There is no any bias towards or against any stocks or companies mentioned in this page.</p>
+    </div>
+    <div class="footer-bottom">
+      <p>Coursiv. All right reserved. © 2026. Coursiv Limited. Limassol, Cyprus</p>
+      <div class="footer-languages" aria-label="Languages">
+        <span lang="en">English</span><a lang="es" href="https://coursiv.io/es/">Español</a><a lang="fr" href="https://coursiv.io/fr/">Français</a><a lang="pt" href="https://coursiv.io/pt/">Português</a><a lang="de" href="https://coursiv.io/de/">Deutsch</a>
+      </div>
+    </div>
+  </footer></body></html>

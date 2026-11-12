@@ -1,0 +1,73 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Token Counter | Coursiv</title><link rel="stylesheet" href="./coursiv-home.css?v=6"><link rel="stylesheet" href="./coursiv-tools.css"><script src="./coursiv-home.js?v=2" defer></script><script src="./coursiv-token.js?v=2" defer></script><meta name="replica-mobile" content="coursiv"><link rel="stylesheet" href="./mobile-shell.css"><script src="./mobile-shell.js" defer></script></head><body>
+  <header>
+    <nav aria-label="Home navigation">
+      <a href="./coursiv-home.html"><img src="./assets/coursiv-home-logo.svg" width="75" height="24" alt="Coursiv"></a>
+      <button class="nav-toggle" type="button" aria-controls="header-links" aria-expanded="false" aria-label="Open navigation">☰</button>
+      <div class="header-links" id="header-links">
+        <a href="./coursiv-home.html">Home</a>
+        <details name="coursiv-header"><summary>Explore</summary><div class="nav-popover">
+          <p>Product</p><a href="./coursiv-about.html">What is Coursiv</a><a href="./coursiv-pricing.html">Pricing</a><a href="./coursiv-reviews.html">Reviews</a>
+          <p>Account &amp; billing</p><a href="./coursiv-login.html">Login</a><a href="./coursiv-cancel.html">Cancel subscription</a><a href="./coursiv-charge.html">Why was I charged?</a>
+        </div></details>
+        <a href="./coursiv-certificate.html">AI Certificate</a>
+        <a href="./coursiv-tools.html">Free AI tools</a>
+        <a href="https://coursiv.io/blog">Blog</a>
+        <details name="coursiv-header"><summary>Help</summary><div class="nav-popover">
+          <p class="mobile-help-label">Help</p>
+          <a href="https://support.coursiv.io/en/support/home?utm_source=io&amp;utm_placement=header">Support Center</a><a href="./coursiv-faq.html">FAQ</a>
+        </div></details>
+      </div>
+      <div class="header-actions">
+        <details name="coursiv-header"><summary aria-label="Select language"><span aria-hidden="true">🇬🇧</span></summary><div class="nav-popover">
+          <span aria-current="true">English</span><a lang="es" href="https://coursiv.io/es/">Español</a><a lang="fr" href="https://coursiv.io/fr/">Français</a><a lang="pt" href="https://coursiv.io/pt/">Português</a><a lang="de" href="https://coursiv.io/de/">Deutsch</a>
+        </div></details>
+        <a class="header-login" href="https://app.coursiv.io">Log in</a>
+        <a class="cta" href="./?quiz=coursiv">Start now</a>
+      </div>
+    </nav>
+  </header><main class="frame tools-page optimizer formula-page token-page">
+<p class="optimizer-crumb"><a href="./coursiv-home.html">Home</a> / <a href="./coursiv-tools.html">Free AI tools</a> / Token Counter</p>
+<p>Free tool. No signup. Runs in your browser.</p><h1>AI Token Counter and Cost Calculator</h1>
+<p>Count tokens for GPT, Claude and Gemini and see what one request or a month of requests costs.</p>
+<section class="tools-hero">
+<div class="tools-demo"><label for="token-text">Text to count</label><textarea id="token-text" rows="9" placeholder="Paste a prompt, a document, a transcript… or drop a .txt, .docx or .pdf here"></textarea>
+<p>Paste text or drop a .txt, .docx or .pdf file. Counts update as you type. Files stay in your browser.</p>
+<div class="opt-actions"><button type="button" id="token-attach">Attach a file</button><input type="file" id="token-file" accept=".txt,.docx,.pdf,text/plain,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden><button type="button" id="token-example">Try an example</button></div><p id="token-status" role="status"></p>
+<div class="token-metrics"><div><p>GPT-5 / GPT-6</p><strong id="token-modern">0</strong><small id="token-modern-quality">tokens, estimate</small></div><div><p>GPT-4 / 3.5</p><strong id="token-legacy">0</strong><small id="token-legacy-quality">tokens, estimate</small></div><div><p>Claude</p><strong id="token-claude">0</strong><small id="token-claude-quality">tokens, estimate</small></div><div><p>Gemini</p><strong id="token-gemini">0</strong><small id="token-gemini-quality">tokens, estimate</small></div></div></div>
+<div class="tools-demo"><h2>Cost calculator</h2><label for="token-model">Model</label><select id="token-model"></select><p>Reference rates shown by Coursiv on September 24, 2026. Check the vendor before budgeting.</p>
+<label for="token-input">Input tokens per request</label><input type="number" id="token-input" min="0" step="1" placeholder="0"><p>Type a number to override. Clear it to count the text again.</p>
+<label for="token-output">Output tokens per request</label><input type="number" id="token-output" min="0" step="1" value="500">
+<label for="token-cache">Cached input share (%)</label><input type="number" id="token-cache" min="0" max="100" value="0"><p id="token-cache-rate"></p>
+<label for="token-volume">Requests per month</label><input type="number" id="token-volume" min="0" step="1" value="1000">
+<div class="token-metrics"><div><p>Per request</p><strong id="token-request"></strong></div><div><p>Per month</p><strong id="token-month"></strong></div></div><p id="token-breakdown" aria-live="polite"></p></div></section>
+<section><h2>How to use the Token Counter</h2><div class="tools-grid"><article><h3>Paste any text</h3><p>See counts for four model families.</p></article><article><h3>Pick a model</h3><p>Choose the model to apply its rates.</p></article><article><h3>Set the volume</h3><p>Enter the expected output and requests per month.</p></article></div></section>
+<section class="tools-demo"><h2>Understand what you are paying for</h2><a class="cta" href="./?quiz=coursiv">See my learning plan</a></section>
+<section><h2>Frequently asked questions</h2><details open><summary>Are all token counts exact?</summary><p>Check the label for each family. Claude and Gemini counts are estimates.</p></details><details><summary>How does cached input affect cost?</summary><p>The calculator applies the cache rate to the cached share and the full input rate to the remainder.</p></details></section>
+</main>  <footer class="site-footer frame">
+    <div class="footer-brand">
+      <a href="./coursiv-home.html"><img src="./assets/coursiv-home-logo.svg" width="75" height="24" alt="Coursiv"></a>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/coursiv_io/">Instagram</a>
+        <a href="https://www.linkedin.com/company/coursivapp/">LinkedIn</a>
+        <a href="https://www.youtube.com/@Coursiv">YouTube</a>
+        <a href="https://www.reddit.com/r/coursivofficial/">Reddit</a>
+      </div>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <div><h2>Coursiv</h2><ul><li><a href="./coursiv-home.html">Home</a></li><li><a href="./coursiv-about.html">What is Coursiv</a></li><li><a href="./coursiv-pricing.html">Pricing</a></li><li><a href="./coursiv-reviews.html">Reviews</a></li><li><a href="./coursiv-certificate.html">AI Certificate Program</a></li><li><a href="./coursiv-tools.html">Free AI tools</a></li></ul></div>
+      <div><h2>Account &amp; billing</h2><ul><li><a href="./coursiv-login.html">Login</a></li><li><a href="./coursiv-cancel.html">Cancel subscription</a></li><li><a href="./coursiv-charge.html">Why was I charged?</a></li><li><a href="./coursiv-faq.html">FAQ</a></li></ul></div>
+      <div><h2>Explore the blog</h2><ul><li><a href="https://coursiv.io/blog">Blog</a></li><li><a href="https://coursiv.io/blog/categories/ai-guides">AI guides</a></li><li><a href="https://coursiv.io/blog/categories/ai-careers">AI careers</a></li><li><a href="https://coursiv.io/blog/tags/productivity">Productivity</a></li><li><a href="https://coursiv.io/blog/categories/ai-news">Latest AI news</a></li><li><a href="https://coursiv.io/blog/authors">Editorial team</a></li></ul></div>
+      <div><h2>Compare AI tools</h2><ul><li><a href="https://coursiv.io/blog/tags/chatgpt">ChatGPT</a></li><li><a href="https://coursiv.io/blog/tags/claude">Claude</a></li><li><a href="https://coursiv.io/blog/tags/ai-tools">AI tools</a></li><li><a href="https://coursiv.io/blog/tags/ai-comparison">AI comparison</a></li></ul></div>
+      <div><h2>Help &amp; legal</h2><ul><li><a href="https://support.coursiv.io/en/support/home?utm_source=io&amp;utm_placement=footer">Support Center</a></li><li><a href="mailto:support@coursiv.io">support@coursiv.io</a></li><li><a href="https://legal.coursiv.io/privacy">Privacy Policy</a></li><li><a href="https://legal.coursiv.io/terms">Terms and Conditions</a></li><li><a href="https://legal.coursiv.io/subscription">Subscription Terms</a></li></ul></div>
+    </nav>
+    <div class="footer-disclaimer">
+      <strong>Disclaimer</strong>
+      <p>Coursiv as an educational platform does not provide any financial or career advice. Please consult with your financial or career advisor first before making any career decisions. There is no any bias towards or against any stocks or companies mentioned in this page.</p>
+    </div>
+    <div class="footer-bottom">
+      <p>Coursiv. All right reserved. © 2026. Coursiv Limited. Limassol, Cyprus</p>
+      <div class="footer-languages" aria-label="Languages">
+        <span lang="en">English</span><a lang="es" href="https://coursiv.io/es/">Español</a><a lang="fr" href="https://coursiv.io/fr/">Français</a><a lang="pt" href="https://coursiv.io/pt/">Português</a><a lang="de" href="https://coursiv.io/de/">Deutsch</a>
+      </div>
+    </div>
+  </footer></body></html>

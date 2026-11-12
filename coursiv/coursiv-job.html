@@ -1,0 +1,68 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>AI Job Checker | Coursiv</title><link rel="stylesheet" href="./coursiv-home.css?v=6"><link rel="stylesheet" href="./coursiv-tools.css"><script src="./coursiv-home.js?v=2" defer></script><script src="./coursiv-job.js?v=4" defer></script><meta name="replica-mobile" content="coursiv"><link rel="stylesheet" href="./mobile-shell.css"><script src="./mobile-shell.js" defer></script></head><body>
+  <header>
+    <nav aria-label="Home navigation">
+      <a href="./coursiv-home.html"><img src="./assets/coursiv-home-logo.svg" width="75" height="24" alt="Coursiv"></a>
+      <button class="nav-toggle" type="button" aria-controls="header-links" aria-expanded="false" aria-label="Open navigation">☰</button>
+      <div class="header-links" id="header-links">
+        <a href="./coursiv-home.html">Home</a>
+        <details name="coursiv-header"><summary>Explore</summary><div class="nav-popover">
+          <p>Product</p><a href="./coursiv-about.html">What is Coursiv</a><a href="./coursiv-pricing.html">Pricing</a><a href="./coursiv-reviews.html">Reviews</a>
+          <p>Account &amp; billing</p><a href="./coursiv-login.html">Login</a><a href="./coursiv-cancel.html">Cancel subscription</a><a href="./coursiv-charge.html">Why was I charged?</a>
+        </div></details>
+        <a href="./coursiv-certificate.html">AI Certificate</a>
+        <a href="./coursiv-tools.html">Free AI tools</a>
+        <a href="https://coursiv.io/blog">Blog</a>
+        <details name="coursiv-header"><summary>Help</summary><div class="nav-popover">
+          <p class="mobile-help-label">Help</p>
+          <a href="https://support.coursiv.io/en/support/home?utm_source=io&amp;utm_placement=header">Support Center</a><a href="./coursiv-faq.html">FAQ</a>
+        </div></details>
+      </div>
+      <div class="header-actions">
+        <details name="coursiv-header"><summary aria-label="Select language"><span aria-hidden="true">🇬🇧</span></summary><div class="nav-popover">
+          <span aria-current="true">English</span><a lang="es" href="https://coursiv.io/es/">Español</a><a lang="fr" href="https://coursiv.io/fr/">Français</a><a lang="pt" href="https://coursiv.io/pt/">Português</a><a lang="de" href="https://coursiv.io/de/">Deutsch</a>
+        </div></details>
+        <a class="header-login" href="https://app.coursiv.io">Log in</a>
+        <a class="cta" href="./?quiz=coursiv">Start now</a>
+      </div>
+    </nav>
+  </header><main class="frame tools-page optimizer formula-page job-page">
+<p class="optimizer-crumb"><a href="./coursiv-home.html">Home</a> / <a href="./coursiv-tools.html">Free AI tools</a> / AI Job Checker</p>
+<p>Free tool. No signup. Runs in your browser.</p><h1>Will AI Take My Job? Task Exposure Checker</h1>
+<p>Pick your occupation or list your weekly tasks to see where AI can help and what to learn next.</p>
+<section class="tools-hero"><form id="job-form" class="tools-demo">
+<fieldset><legend>How to describe the job</legend><label><input name="mode" type="radio" value="occupation" checked> Pick my occupation</label><label><input name="mode" type="radio" value="tasks"> List my own tasks</label></fieldset>
+<div id="job-occupation"><label for="job-search">Your occupation</label><input type="text" id="job-search" placeholder="e.g. accountant, nurse, marketing manager" autocomplete="off"><p id="job-library"></p><div class="opt-actions" id="job-choices"></div></div>
+<div id="job-custom" hidden><label for="job-tasks">Your typical weekly tasks, one per line</label><textarea id="job-tasks" rows="8" maxlength="4000" placeholder="Write weekly status reports&#10;Book meetings and manage the calendar&#10;Analyse campaign results&#10;Run discovery calls with prospects&#10;Coach two junior team members"></textarea><p>Describe tasks only. Do not enter names, emails, phone numbers or CVs. Up to 20 lines.</p><div class="opt-actions"><button class="cta" id="job-submit" disabled>Check my tasks</button><button type="button" id="job-example">Use an example</button></div></div>
+<p id="job-error" role="alert"></p><p>Ratings describe categories of work and are not suitable for decisions about anyone’s employment.</p></form>
+<div class="tools-demo"><p id="job-status" role="status">Your task-by-task breakdown appears here</p><div id="job-results" hidden><div id="job-score" role="img"></div><p id="job-mix"></p><ul id="job-list"></ul><h3>What to learn next</h3><ul id="job-skills"></ul></div></div></section>
+<section><h2>How to use the AI Job Checker</h2><div class="tools-grid"><article><h3>Pick your occupation, or list your tasks</h3><p>Use a sample role or enter one task per line.</p></article><article><h3>Read the task breakdown</h3><p>See each task’s rating and why it was assigned.</p></article><article><h3>Build skills that complement AI</h3><p>Use the suggestions as a starting point for learning.</p></article></div></section>
+<section class="tools-demo"><p>Next step</p><h2>Be the person who runs the AI</h2><p id="job-next">Check a role or task list to see skills to learn first.</p><a class="cta" href="./?quiz=coursiv">See my learning plan</a></section>
+<section><h2>Frequently asked questions</h2><details open><summary>How is the exposure score calculated?</summary><p>AI-producible counts as 1, AI-assisted as 0.5, and person-only as 0.1. The score is their average as a percentage.</p></details><details><summary>Does a high score mean my job will disappear?</summary><p>No. It describes a mix of tasks and cannot predict job outcomes.</p></details><details><summary>Where do the ratings come from?</summary><p>The local occupation library uses sample ratings. Custom tasks are matched against browser-based rules.</p></details><details><summary>Can I use this to make decisions about my employees?</summary><p>No. The tool is for learning about categories of tasks.</p></details><details><summary>My occupation is not in the list. What do I do?</summary><p>Choose List my own tasks.</p></details></section>
+</main>  <footer class="site-footer frame">
+    <div class="footer-brand">
+      <a href="./coursiv-home.html"><img src="./assets/coursiv-home-logo.svg" width="75" height="24" alt="Coursiv"></a>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/coursiv_io/">Instagram</a>
+        <a href="https://www.linkedin.com/company/coursivapp/">LinkedIn</a>
+        <a href="https://www.youtube.com/@Coursiv">YouTube</a>
+        <a href="https://www.reddit.com/r/coursivofficial/">Reddit</a>
+      </div>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <div><h2>Coursiv</h2><ul><li><a href="./coursiv-home.html">Home</a></li><li><a href="./coursiv-about.html">What is Coursiv</a></li><li><a href="./coursiv-pricing.html">Pricing</a></li><li><a href="./coursiv-reviews.html">Reviews</a></li><li><a href="./coursiv-certificate.html">AI Certificate Program</a></li><li><a href="./coursiv-tools.html">Free AI tools</a></li></ul></div>
+      <div><h2>Account &amp; billing</h2><ul><li><a href="./coursiv-login.html">Login</a></li><li><a href="./coursiv-cancel.html">Cancel subscription</a></li><li><a href="./coursiv-charge.html">Why was I charged?</a></li><li><a href="./coursiv-faq.html">FAQ</a></li></ul></div>
+      <div><h2>Explore the blog</h2><ul><li><a href="https://coursiv.io/blog">Blog</a></li><li><a href="https://coursiv.io/blog/categories/ai-guides">AI guides</a></li><li><a href="https://coursiv.io/blog/categories/ai-careers">AI careers</a></li><li><a href="https://coursiv.io/blog/tags/productivity">Productivity</a></li><li><a href="https://coursiv.io/blog/categories/ai-news">Latest AI news</a></li><li><a href="https://coursiv.io/blog/authors">Editorial team</a></li></ul></div>
+      <div><h2>Compare AI tools</h2><ul><li><a href="https://coursiv.io/blog/tags/chatgpt">ChatGPT</a></li><li><a href="https://coursiv.io/blog/tags/claude">Claude</a></li><li><a href="https://coursiv.io/blog/tags/ai-tools">AI tools</a></li><li><a href="https://coursiv.io/blog/tags/ai-comparison">AI comparison</a></li></ul></div>
+      <div><h2>Help &amp; legal</h2><ul><li><a href="https://support.coursiv.io/en/support/home?utm_source=io&amp;utm_placement=footer">Support Center</a></li><li><a href="mailto:support@coursiv.io">support@coursiv.io</a></li><li><a href="https://legal.coursiv.io/privacy">Privacy Policy</a></li><li><a href="https://legal.coursiv.io/terms">Terms and Conditions</a></li><li><a href="https://legal.coursiv.io/subscription">Subscription Terms</a></li></ul></div>
+    </nav>
+    <div class="footer-disclaimer">
+      <strong>Disclaimer</strong>
+      <p>Coursiv as an educational platform does not provide any financial or career advice. Please consult with your financial or career advisor first before making any career decisions. There is no any bias towards or against any stocks or companies mentioned in this page.</p>
+    </div>
+    <div class="footer-bottom">
+      <p>Coursiv. All right reserved. © 2026. Coursiv Limited. Limassol, Cyprus</p>
+      <div class="footer-languages" aria-label="Languages">
+        <span lang="en">English</span><a lang="es" href="https://coursiv.io/es/">Español</a><a lang="fr" href="https://coursiv.io/fr/">Français</a><a lang="pt" href="https://coursiv.io/pt/">Português</a><a lang="de" href="https://coursiv.io/de/">Deutsch</a>
+      </div>
+    </div>
+  </footer></body></html>

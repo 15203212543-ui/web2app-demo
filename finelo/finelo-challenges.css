@@ -1,0 +1,60 @@
+.challenge-main{max-width:1116px;padding-block:48px 36px;--challenge-surface:#ffffff13;--challenge-border:#ffffff24;--challenge-muted:#c7c5d0}
+.light .challenge-main{--challenge-surface:#23204c0a;--challenge-border:#23204c26;--challenge-muted:#514e63}
+.challenge-main h1{font-size:clamp(34px,4vw,54px);line-height:1.1;letter-spacing:-.03em;margin:16px 0 20px}
+.challenge-main h2{font-size:clamp(26px,3vw,38px);line-height:1.2;margin:0 0 16px}
+.challenge-main h3{margin:0 0 10px}
+.challenge-main p,.challenge-main small{color:var(--challenge-muted)}
+.challenge-hero{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:44px;align-items:center;margin-bottom:28px}
+.challenge-hero nav{min-height:0;display:block;font-size:13px}
+.challenge-hero img{display:block;width:min(100%,430px);height:auto;border:1px solid var(--challenge-border);border-radius:30px}
+.challenge-hero .cta,.challenge-bottom .cta{display:inline-block;margin-top:8px}
+.challenge-intro,.challenge-grid article,.challenge-faq details,.challenge-table{background:var(--challenge-surface);border:1px solid var(--challenge-border);border-radius:16px;padding:24px}
+.challenge-intro p:first-child{margin-top:0}
+.challenge-main>section:not(.challenge-intro){margin-block:46px;scroll-margin-top:20px}
+.challenge-toc{min-height:0;display:flex;justify-content:flex-start;flex-wrap:wrap;gap:12px;margin:24px 0}
+.challenge-toc a{border:1px solid var(--challenge-border);border-radius:10px;padding:10px 14px}
+.challenge-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.challenge-grid small{display:block;margin-bottom:8px}
+.challenge-grid.features{grid-template-columns:repeat(4,minmax(0,1fr))}
+.challenge-table{overflow:auto;padding:0}
+.challenge-table table{width:100%;min-width:490px;border-collapse:collapse;text-align:left}
+.challenge-table td,.challenge-table th{padding:15px;border-bottom:1px solid var(--challenge-border)}
+.challenge-faq details{margin-block:8px;padding:16px}
+.challenge-faq summary{cursor:pointer;font-weight:650}
+.challenge-bottom{text-align:center}
+@media(max-width:780px){.challenge-main{padding-top:24px}.challenge-hero{grid-template-columns:1fr;gap:24px}.challenge-grid.features{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.challenge-grid,.challenge-grid.features{grid-template-columns:1fr}}
+.challenge-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px}
+.trader-page .challenge-grid.trader-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.trader-page .challenge-bottom{margin-top:32px}
+.trader-includes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 24px;padding-left:22px}
+@media(max-width:760px){.trader-page .challenge-grid.trader-grid,.trader-includes{grid-template-columns:1fr}}
+.finance-tool{display:block;text-decoration:none}.finance-tool span{color:#a9a0ff}
+.finance-calc{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:18px}
+.finance-field{margin-block:0 22px}.finance-field>div{display:flex;align-items:center;gap:10px;margin:6px 0}
+.finance-field input[type=number]{width:100%;padding:8px;border:1px solid var(--challenge-border);border-radius:8px;background:var(--challenge-surface);color:inherit}
+.finance-field input[type=range]{width:100%;accent-color:#8c7aff}
+.finance-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:0}
+.finance-results dt{color:var(--challenge-muted)}.finance-results dd{margin:4px 0 0;font-size:clamp(16px,3vw,25px);font-weight:750;overflow-wrap:anywhere}
+.finance-interest{color:#a495ff}.finance-principal{color:#5a50a0}
+.finance-chart{height:180px;display:flex;gap:clamp(3px,1vw,12px);padding:6px 0}
+.finance-bar{min-width:0;flex:1;display:flex;flex-direction:column;justify-content:end;text-align:center}
+.finance-bar span{height:var(--total);background:linear-gradient(to top,#5a50a0 var(--principal),#a495ff var(--principal));border-radius:4px 4px 0 0}
+.finance-bar small{white-space:nowrap;font-size:clamp(8px,1vw,12px)}
+@media(max-width:760px){.finance-calc{grid-template-columns:minmax(0,1fr)}}
+#plan-progress{display:block;width:100%;accent-color:#8c7aff}
+.finance-page label[for=plan-progress]{display:block;margin:20px 0 5px}
+.finance-page label[for=plan-progress] output{font-weight:700}
+
+.social-month-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:4px;margin-block:12px}
+.social-month-grid button{aspect-ratio:1;border:1px solid #ffffff30;border-radius:4px;min-width:0;padding:0;background:var(--month-color)}
+.social-month-grid button[aria-pressed=true]{outline:2px solid currentColor;outline-offset:1px}
+.social-heatmap [data-band="0"]{--month-color:#665c81}.social-heatmap [data-band="1"]{--month-color:#6577ab}
+.social-heatmap [data-band="2"]{--month-color:#508d9c}.social-heatmap [data-band="3"]{--month-color:#399b69}
+.social-heatmap [data-band="4"]{--month-color:#58d77c}
+.social-heatmap-legend{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:13px}
+.social-heatmap-legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-inline-end:5px;background:var(--month-color)}
+.app-course{display:block;margin-top:12px;padding:12px;border:1px solid var(--challenge-border);border-radius:12px;text-decoration:none}
+.app-course:hover{background:var(--challenge-surface)}
+.app-course h4,.app-course p{margin:0}
+.app-course p{margin-top:5px}

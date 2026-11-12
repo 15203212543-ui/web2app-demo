@@ -1,0 +1,39 @@
+.about section{padding-block:64px}
+.about-hero{overflow:hidden;background:radial-gradient(ellipse at 75% 30%,#392150,transparent 60%)}
+.about-hero-layout{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:32px;min-height:460px}
+.about h1{line-height:1;margin-bottom:24px}
+.about h2{font-size:30px;line-height:36px;margin:0 0 16px}
+.about h3{font-size:18px;margin:0 0 6px}
+.about p{margin:0 0 20px;color:#e2e5e9}
+.about .about-label{color:#ffb800;font-weight:700;font-size:14px;letter-spacing:.08em;margin-bottom:12px}
+.about-actions{display:flex;flex-wrap:wrap;gap:12px}
+.about-secondary{background:transparent;color:white;border:1px solid #ffffff50}
+.about-secondary:hover{background:#ffffff15}
+.about-hero-art,.about-challenge-art{position:relative}
+.about-hero-art img:first-child,.about-challenge-art img:first-child{display:block;width:85%;max-height:460px;object-fit:contain;margin-inline:auto}
+.about-hero-art img:last-child,.about-challenge-art img:last-child{position:absolute;right:0;bottom:0;width:36%}
+.about-frame{width:min(100% - 32px,768px);margin-inline:auto}
+.about-checks,.about-tools,.about-steps{padding:0;list-style:none}
+.about-checks{display:grid;gap:12px;margin:20px 0 28px}
+.about-checks li{position:relative;padding-left:26px}
+.about-checks li::before{content:"✓";position:absolute;left:0;color:#ffb800;font-weight:700}
+.about-tools{display:flex;flex-wrap:wrap;gap:8px}
+.about-tools li{display:flex;align-items:center;gap:8px;border:1px solid #ffffff26;border-radius:999px;background:#291d2f;padding:6px 16px 6px 6px}
+.about-tools img{display:block;flex:none;object-fit:contain}
+.about-panel,.about-steps li,.about-faq details{border-radius:16px;background:#291d2f;border:1px solid #ffffff1a}
+.about-panel{padding:24px}
+.about-split{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center}
+.about-certificate{width:100%;height:auto}
+.about-steps{display:grid;gap:12px;counter-reset:about-step}
+.about-steps li{position:relative;padding:20px 20px 20px 68px;counter-increment:about-step}
+.about-steps li::before{content:counter(about-step);position:absolute;top:20px;left:20px;display:grid;place-items:center;width:32px;height:32px;border-radius:8px;background:#4534bb;font-weight:700}
+.about-steps p,.about-faq p{margin:0}
+.about-app{text-align:center}
+.about-app .about-actions{justify-content:center;margin-block:24px}
+.about-faq details{margin-top:12px;border:1px solid #2c343f;border-radius:12px;background:#100018}
+.about-faq summary{display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;cursor:pointer;padding:16px 20px;font-weight:600;line-height:28px}
+.about-faq summary::-webkit-details-marker{display:none}
+.about-faq summary::after{content:"+";font-size:20px;font-weight:400}
+.about-faq details[open] summary::after{content:"−"}
+.about-faq details p{padding:0 20px 16px}
+@media(max-width:767px){.about section{padding-block:48px}.about-hero-layout,.about-split{grid-template-columns:1fr}.about-hero-layout{min-height:0}.about h1{font-size:36px;line-height:40px}.about-hero-art img:first-child{max-height:330px}}
