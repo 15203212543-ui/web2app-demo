@@ -1,0 +1,14 @@
+function e(e,t,n,r,i,a){(()=>{let t=e.querySelector(`.fb-theme`),r=n=>{e.documentElement.dataset.theme=n?`light`:`dark`,e.querySelectorAll(`img[data-light-src]`).forEach(e=>{e.dataset.darkSrc??=e.getAttribute(`src`),e.setAttribute(`src`,n?e.dataset.lightSrc:e.dataset.darkSrc)}),t.textContent=n?`☾`:`☀`,t.setAttribute(`aria-label`,n?`Switch to dark theme`:`Switch to light theme`)};r(n.getItem(`finelo-blog-theme`)===`light`),t.addEventListener(`click`,()=>{let t=e.documentElement.dataset.theme!==`light`;r(t),n.setItem(`finelo-blog-theme`,t?`light`:`dark`)})})(),(()=>{let t=e.querySelector(`.fb-cookie-open`);if(!t)return;let r=`finelo-blog-cookie-preferences`,i=e.createElement(`dialog`);i.className=`fb-cookie-dialog`,i.setAttribute(`aria-labelledby`,`fb-cookie-title`);let a=[[`Functional`,`These cookies help us analyze use of the site and improve the browsing experience.`],[`Advertising`,`These cookies can be used to show more relevant advertising.`]];i.innerHTML=`
+    <form method="dialog">
+      <button class="fb-cookie-close" value="close" aria-label="Close" autofocus>×</button>
+      <h2 id="fb-cookie-title">Cookies and related technologies on this site</h2>
+      <img src="/web2app-demo/finelo-option/finelo/assets/finelo-logo.svg" alt="Finelo Logo">
+      <p>Choose whether this site can use the cookies and related technologies described below. Read our Privacy Policy to learn more.</p>
+      <section><h3>Required cookies</h3><p>These cookies enable essential site functions.</p><strong>Active</strong></section>
+      ${a.map(([e,t])=>`
+        <fieldset><legend>${e} cookies</legend><p>${t}</p>
+        <label><input type="radio" name="${e}" value="no"> No</label>
+        <label><input type="radio" name="${e}" value="yes"> Yes</label></fieldset>`).join(``)}
+      <div class="fb-cookie-actions"><button value="submit">Submit preferences</button><button value="all">Accept all</button><button value="none">Reject all</button></div>
+      <a href="https://legal.finelo.com/privacy">Read our Privacy Policy</a>
+    </form>`,e.body.append(i);let o=i.querySelector(`form`);t.addEventListener(`click`,()=>{let e={};try{e=JSON.parse(n.getItem(r))??{}}catch{}for(let[t]of a)o.elements.namedItem(t).value=e[t]??`yes`;i.showModal()}),o.addEventListener(`submit`,e=>{let t=e.submitter?.value;if(![`submit`,`all`,`none`].includes(t))return;let i=Object.fromEntries(a.map(([e])=>[e,t===`all`?`yes`:t===`none`?`no`:o.elements.namedItem(e).value]));try{n.setItem(r,JSON.stringify(i))}catch{}})})(),(()=>{let t=e.querySelector(`.fb-mobile-toggle`),n=e.querySelector(`.fb-mobile-drawer`);if(!t||!n)return;t.addEventListener(`click`,()=>n.showModal()),n.addEventListener(`click`,e=>{e.target===n&&e.clientX<n.getBoundingClientRect().left&&n.close()});let i=r(`(min-width:1280px)`);i.addEventListener(`change`,()=>{i.matches&&n.open&&n.close()})})()}export{e as initialize};

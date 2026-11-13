@@ -1,0 +1,1 @@
+function e(e,t,n,r,i,a){e.querySelectorAll(`.fb-article-faq button[aria-controls]`).forEach(t=>{let n=e.getElementById(t.getAttribute(`aria-controls`));n&&t.addEventListener(`click`,()=>{n.hidden=!n.hidden,t.setAttribute(`aria-expanded`,String(!n.hidden))})})}export{e as initialize};

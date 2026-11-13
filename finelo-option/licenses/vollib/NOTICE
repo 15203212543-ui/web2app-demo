@@ -1,0 +1,9 @@
+Third-party software bundled in this application:
+
+- @vollib/vollib 0.1.1
+- lets-be-rational 0.1.0
+- cody-special 0.1.0
+- piecewise-rational 0.1.0
+
+All listed packages are Copyright (c) 2026 vollib and licensed under the MIT License.
+The full license text is available in LICENSE in this directory.

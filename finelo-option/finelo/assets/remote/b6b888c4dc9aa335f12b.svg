@@ -1,0 +1,17 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="200.477" height="149.138" viewBox="0 0 200.477 149.138" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2085668265">
+<rect id="Rectangle 1240648257" width="200.477" height="149.138" rx="41.3682" fill="#BBBAFF"/>
+<rect id="Rectangle 1240648258" x="16.0393" y="19.6135" width="164.391" height="109.891" rx="24.8209" fill="#3E3D51"/>
+<path id="Rectangle 1240648260" d="M67.1618 109.89H48.4984C41.6443 109.89 36.0879 104.334 36.0879 97.4798V92.2292M129.31 109.89H147.973C154.827 109.89 160.384 104.334 160.384 97.4798V92.2292M160.384 56.9071V51.6566C160.384 44.8024 154.827 39.2461 147.973 39.2461H129.31M67.1618 39.2461H48.4984C41.6443 39.2461 36.0879 44.8024 36.0879 51.6566V56.9071" stroke="#66F5FF" stroke-width="8.27364" stroke-linecap="round"/>
+<line id="Line 107" x1="94.412" y1="37.6037" x2="94.412" y2="111.536" stroke="#66F5FF" stroke-width="12.4105" stroke-linecap="round"/>
+<rect id="Rectangle 1240648261" x="44.1101" y="31.3984" width="52.124" height="86.3429" fill="url(#paint0_linear_0_19)"/>
+<g id="Frame 48095978">
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_19" x1="96.2341" y1="74.5699" x2="44.1101" y2="74.5699" gradientUnits="userSpaceOnUse">
+<stop stop-color="#66F5FF" stop-opacity="0.36"/>
+<stop offset="1" stop-color="#66F5FF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
