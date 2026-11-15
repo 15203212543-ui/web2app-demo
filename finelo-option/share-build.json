@@ -1,7 +1,7 @@
 {
   "repository": "songmengxin25-creator/finelo-option-app",
-  "revision": "49c828053b40bddba7bde722d2f22b691d7660e0",
+  "revision": "7bede677aedc6553da10783d5ed799335a5eab62",
   "base": "/web2app-demo/finelo-option/",
   "routing": "hash",
-  "builtAt": "2026-11-15T11:20:02.541Z"
+  "builtAt": "2026-11-15T12:25:07.730Z"
 }
