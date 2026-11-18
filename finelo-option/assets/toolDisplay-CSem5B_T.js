@@ -1,0 +1,1 @@
+function e(e,t=2){return Number.isFinite(e)?e!==0&&Math.abs(e)<1e-8?e.toExponential(4):e.toLocaleString(`en-US`,{minimumFractionDigits:t,maximumFractionDigits:e!==0&&Math.abs(e)<.01?Math.max(t,8):t}):`无法计算`}function t(e,t,n){return n===t?.5:(e-t)/(n-t)}export{e as n,t};

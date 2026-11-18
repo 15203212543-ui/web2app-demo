@@ -1,0 +1,568 @@
+{
+  "schemaVersion": 1,
+  "buildId": "e1e6fba6-edf1-4afc-92c5-d33c61b35ad3",
+  "revision": "eabd92881d5d6c71a2d28531ddd90a2ec6be8d93",
+  "dirty": false,
+  "builtAt": "2026-11-18T02:27:26.606Z",
+  "base": "/web2app-demo/finelo-option/",
+  "routing": "hash",
+  "dataSchema": 1,
+  "files": {
+    "assets/AgentWebMonitoringDemo-BtEOFDlV.css": {
+      "bytes": 1489,
+      "sha256": "bac14191d03c9fb53ff9d7eb3a8a37d8d5d7aa4419a66d810c39dfa581cddfd2"
+    },
+    "assets/AgentWebMonitoringDemo-Jcbo4g-g.js": {
+      "bytes": 2034,
+      "sha256": "25bced1f6b3c8fa0738a8c25364cb61300c491116bf850f8c2e93fc2f6b584ca"
+    },
+    "assets/BondReturnCalculator-CxI7i-VE.js": {
+      "bytes": 2964,
+      "sha256": "ec69291213dcdb850faf5f5f9927e7381910bc0b466244d1eccfff17ee8a3834"
+    },
+    "assets/BondReturnCalculator-DNAYJWYL.css": {
+      "bytes": 1520,
+      "sha256": "16e31d104a89eed641320bf51c03a2ab8cee1be4eb9a77bdabd58e1b60036c25"
+    },
+    "assets/BotsPage-3_o4LdJf.js": {
+      "bytes": 2529,
+      "sha256": "c01bc39775a0e07a7fd4cca6bff76eb527ed61e95d230ee20fa4d57b868e5cfc"
+    },
+    "assets/BrokerConnectionReadiness-B6DznMgz.js": {
+      "bytes": 2107,
+      "sha256": "28c83f126b5dae9dcc14851f6bc285750895ddbdc9e696d0d7753cbdf2420bc4"
+    },
+    "assets/BrokerConnectionReadiness-zal2nkbA.css": {
+      "bytes": 1429,
+      "sha256": "18ee046a991105442444f3b2049b41ef3e29bede7f991bfb9d8087c485406552"
+    },
+    "assets/CalculatorsPage-CHIxQBUD.js": {
+      "bytes": 11612,
+      "sha256": "0200885e3b014fd59d48d632a322a957617907a27b345592f60140f915a89a52"
+    },
+    "assets/ChallengePage-z1OuUP0a.js": {
+      "bytes": 14131,
+      "sha256": "16ffec2e2ba0086c7a468750378a2c84f0b90b3320e310c14f40276a330d950e"
+    },
+    "assets/ChartAIExplanationLessonDemo-6zgRD5HO.js": {
+      "bytes": 4108,
+      "sha256": "35b86375168037545d9b387034158267e9a46656dcfcbeed612afe33971b3ab2"
+    },
+    "assets/ChartAIExplanationLessonDemo-D6Ia1K4B.css": {
+      "bytes": 1963,
+      "sha256": "e000d0831ec73f00fc09d5338e69df86992691cacc5599989b175076ac269979"
+    },
+    "assets/ChartTypeLessonDemo-COFUrUxO.css": {
+      "bytes": 699,
+      "sha256": "3a896e991c2d22659fb2c3562e4daa26fa2d3ca28c62bde1938c599ec253ae47"
+    },
+    "assets/ChartTypeLessonDemo-lqltHtZI.js": {
+      "bytes": 2926,
+      "sha256": "f15dcf6f6a231979fc3122061cf04cfe0aff9e29053356a811b710c0467ca708"
+    },
+    "assets/CloudPaperWorkspace--HgX0gZW.js": {
+      "bytes": 39478,
+      "sha256": "c020596aad04e0091e69f4dd84f8ac930182ab8b7d9f2f6c56074cea56396991"
+    },
+    "assets/CloudPaperWorkspace-CPcHiVO7.css": {
+      "bytes": 1953,
+      "sha256": "1a627a9417b308b76835764eaa9ab2129d0f4b8e0608e66e88aabcd8153e8484"
+    },
+    "assets/ContinuationPatternsLessonDemo-B8bmGYo7.css": {
+      "bytes": 1559,
+      "sha256": "b55670b5e72cbb25df97d25019a6ee2486d84e1b52ef29dccebe3b573810b680"
+    },
+    "assets/ContinuationPatternsLessonDemo-D_KZl-Ch.js": {
+      "bytes": 3655,
+      "sha256": "f2562fa9e14f20f320a61042ede3a7c351cad97f2b6d531fd0a39ead2749eb8b"
+    },
+    "assets/CourseAdminPage-Cmyku3L8.js": {
+      "bytes": 97013,
+      "sha256": "0f979c98d5dfe1f50ad55f4948526cfe078cbefab550ef67a585fd6d25437244"
+    },
+    "assets/CoursePracticeEntry-CfgrbL6b.js": {
+      "bytes": 1693,
+      "sha256": "42bf6589f9f29aa7f249458858c6d35c34e27c047570b1d93956c9e20de7f2f3"
+    },
+    "assets/CourseToolPracticePage-DvfMvV5g.js": {
+      "bytes": 8797,
+      "sha256": "d6bfe3a702f768dcbcc1c5bd82dea854aa16ae2b05377ea4f6fb6535e0c05de7"
+    },
+    "assets/EmploymentGrowthDataDemo-DYl2EGzh.css": {
+      "bytes": 1798,
+      "sha256": "10c66c65edd8c9d31f5c089a90c6509ef694bbbc228cf5918607a01b4dea4ff9"
+    },
+    "assets/EmploymentGrowthDataDemo-Dn_P5X2h.js": {
+      "bytes": 3201,
+      "sha256": "1e720a7921bede6c546352531e2ce33b480c19e887a84b9f0a0c78a437a84151"
+    },
+    "assets/ExistingToolCourseBridge-PzqeRuxR.js": {
+      "bytes": 4069,
+      "sha256": "12e084df7408264ebe1ab0eea33ca919158be81fe076b463a512a4bbb41fa105"
+    },
+    "assets/GrowthAdmin-CTIR9dh_.js": {
+      "bytes": 2947,
+      "sha256": "bdc49707dd9f52d700766de624662f2050628297ebb9d5b60c385312a1528d73"
+    },
+    "assets/GrowthPage-MBLaYFnx.js": {
+      "bytes": 20314,
+      "sha256": "de262add1151a7debfe4aa7cda10a2f8ccc152f900aaa894b778cd081b65c92d"
+    },
+    "assets/HomeAdmin-Cl1x7Zg3.js": {
+      "bytes": 4060,
+      "sha256": "fcb98936d0b3cc90af67ab4df81859cac875d4bc575c04d818ff975a3da55996"
+    },
+    "assets/IndicatorCombinationLessonDemo-C-DSCdQe.css": {
+      "bytes": 2505,
+      "sha256": "df4606bfd7dc1aa81f886d2b81a2f8a718b48a8292c1b2baa9e229ce25902209"
+    },
+    "assets/IndicatorCombinationLessonDemo-C2fhFP3H.js": {
+      "bytes": 4709,
+      "sha256": "0c33caca407faf0c9dbc5b0935456d1ab99588885656e0e49075fea3b053efa7"
+    },
+    "assets/KeyLevelsLessonDemo-Cxp6j4eK.js": {
+      "bytes": 3533,
+      "sha256": "a6afa154c7270fdbd9c25e6ae53519987d415fabbaf288a2ff42641a45eb2191"
+    },
+    "assets/KeyLevelsLessonDemo-D07x7iqZ.css": {
+      "bytes": 2119,
+      "sha256": "9dd510e4060469087ba2aff182cb39fc8c8b82571e94f326f22bd6775ed9dc54"
+    },
+    "assets/LabTasksRoute-BaNYQDAs.css": {
+      "bytes": 1640,
+      "sha256": "94c04586d9da23f9bae4fbffcf3926ce93711bf11b534ba405d47c48db4e1a3b"
+    },
+    "assets/LabTasksRoute-C3z_5VJw.js": {
+      "bytes": 35529,
+      "sha256": "2da20f7b2d872e42314954571178e6a1b33c48e70dab6a46483d92a15f039296"
+    },
+    "assets/LearnerAccount-kf31HWdx.js": {
+      "bytes": 15219,
+      "sha256": "d9c39524cb21d47a30039dce5a214216b4d2fb4499ab8a02b58922e4f955d56e"
+    },
+    "assets/LocalPractice-BgaDNwgL.js": {
+      "bytes": 25760,
+      "sha256": "803c5d54fd37cd805da20dbe5d200b57ef1f7e167ade29b3307ed76a6e6d12f5"
+    },
+    "assets/MarketContextChecklistDemo-BZB6BzLw.js": {
+      "bytes": 2032,
+      "sha256": "650b7b0dc9f4f9e7e9edae5e6ddebfbc9edf82790c636f2fb68cdc05e5a78743"
+    },
+    "assets/MarketContextChecklistDemo-uzIv_iV8.css": {
+      "bytes": 1538,
+      "sha256": "9fd829145fbe1370a6c2a5f3970e40b40e05cac535745e61671909c75a0068d3"
+    },
+    "assets/MarketPage-CiqSXF9M.css": {
+      "bytes": 3114,
+      "sha256": "d46c0e18874ef6113904ec5c4e60d22ff1fc84b0e22beac367c9a2fd3ebb2ad1"
+    },
+    "assets/MarketPage-DG7XA9D6.js": {
+      "bytes": 15951,
+      "sha256": "19c4a4a352e6855900a801d2b079d7ac7f97c428085006c697665eb068fb41ab"
+    },
+    "assets/MarketSentimentProxiesDemo-2TKJTel0.js": {
+      "bytes": 2656,
+      "sha256": "f3f71d4d548b42f2bb7ad5861363a173d29d9e98f2a298c30bcfa6941ab85874"
+    },
+    "assets/MarketSentimentProxiesDemo-D_WHv3u8.css": {
+      "bytes": 1815,
+      "sha256": "1d3bc8d47ac4e5442270d50edbb714ac3c181f97dbd1d011a3d56705e03a6342"
+    },
+    "assets/MovingAverageLessonDemo-BX5Ookpj.js": {
+      "bytes": 3029,
+      "sha256": "baea39121a62c50eb1603b519048b1fb4139fc6364cac23bbb560986ffda091c"
+    },
+    "assets/MovingAverageLessonDemo-ByRgfm_I.css": {
+      "bytes": 2198,
+      "sha256": "2dfba2789b48170f50581ae9879570e37033765da3411b59ae0946fa20a5c6a1"
+    },
+    "assets/MultiSourceDataDemo-BXfAqqTK.js": {
+      "bytes": 2653,
+      "sha256": "a7a00cc8937622129e61b041234570712b602a12c68610442d09050bf22af5fc"
+    },
+    "assets/MultiSourceDataDemo-zHvatMxK.css": {
+      "bytes": 1734,
+      "sha256": "b0086c0848b61ca49738965b11158a4f6cf4999a9715d3297ba1b1d7c6b50b7b"
+    },
+    "assets/OptionsSandbox-D4zuG597.js": {
+      "bytes": 47033,
+      "sha256": "5e7b08decbb5839dab16ced65d745726b28b01312fc4b5a2b0e2bfb80e608f2f"
+    },
+    "assets/OptionsSandbox-DeKJLbfY.css": {
+      "bytes": 7131,
+      "sha256": "8f29cbcf8a72b7add4b1df14c421b03a33e0572f4577dc74aa0fbe5b188afa79"
+    },
+    "assets/OptionsStrategyPayoffChart-d3qQrqzs.js": {
+      "bytes": 5337,
+      "sha256": "adaa397285535a8a1e20dcad98ac85a68611fee548dd59b583e839f2576449cf"
+    },
+    "assets/PortfolioModerationChecklist-B6HYTS5L.css": {
+      "bytes": 1489,
+      "sha256": "1e50d21e7c7a93c3c7b78762363454d5cf68a5b6fcddf16478a0e18abf78e633"
+    },
+    "assets/PortfolioModerationChecklist-CguntrOJ.js": {
+      "bytes": 2079,
+      "sha256": "a4d2625f90df67b24fde34c4d962355bb5786576f22c5915279bd6dd5809dd86"
+    },
+    "assets/PracticeResult-BiTfEGqw.js": {
+      "bytes": 9911,
+      "sha256": "20c4e36f6bc72c8dfd3dcd4de9a5f1c0fbd47904083ee5027395ad7b4dc1f97a"
+    },
+    "assets/PracticeResultLibraryPage-qb_kvHVO.js": {
+      "bytes": 9842,
+      "sha256": "1ebc861a4a341b76f4b9ce5128a6cf7170e0daaf1aafc05d5c4c83045b7933eb"
+    },
+    "assets/PromptProcessDemo-BMMo9GkP.js": {
+      "bytes": 2165,
+      "sha256": "0b716d382e23bebbc10cde998e8be6f00d501d9fc52b784b14c4fd0730589966"
+    },
+    "assets/PromptProcessDemo-BZ1YEYdy.css": {
+      "bytes": 1454,
+      "sha256": "82aa9bef2430143f4438a4dadb086a47c4c78243178d0dfb714162dac242effd"
+    },
+    "assets/ReplicaPage-B2ERhWSa.js": {
+      "bytes": 125574,
+      "sha256": "1d65adeed698ed9e947ffb3b8fedb8d966de12d45dd00867c41f0ea141adf601"
+    },
+    "assets/StockPriceDriversDemo-BsEOAtaE.js": {
+      "bytes": 2696,
+      "sha256": "6a1fccf4147bf4939394513f2d84bf333e660b8eb45834372ae9ebd4488ee090"
+    },
+    "assets/StockPriceDriversDemo-CaiMYYRA.css": {
+      "bytes": 1452,
+      "sha256": "d38ee06617807bd8410c4292e8f393ac11e8cf5a969bec8683a85465e8daf0bb"
+    },
+    "assets/StrategyRobustnessDemo-DGf7_RHo.css": {
+      "bytes": 1474,
+      "sha256": "368e03f38839b38672a667651ad5de326d315168142edf057aa6e7d06e9e82af"
+    },
+    "assets/StrategyRobustnessDemo-GrMiDuvv.js": {
+      "bytes": 2033,
+      "sha256": "4c04efcc4eb427677e82fcbfdf18fda0c50c22f1c47594e9fe3c4fd2edce6e38"
+    },
+    "assets/StructuredAgentRolesDemo-BqMx8S5r.css": {
+      "bytes": 1507,
+      "sha256": "24704638d9bbe80f8ecc1b8e30a4fc17ea24a6b0a52ea5dfe0712c5a7b882262"
+    },
+    "assets/StructuredAgentRolesDemo-p-zJGoQO.js": {
+      "bytes": 2612,
+      "sha256": "7fde557534a46c6003e0995edff1af535c167182cec00b5ca59b5fc728a528af"
+    },
+    "assets/SyntheticCandlestickChart-CqXfGE11.js": {
+      "bytes": 1854,
+      "sha256": "7d98b8c8d2758b0bcc9de9b7747e7ca4027a0d42765a28c933bd2db69cbb6c2f"
+    },
+    "assets/TaskFunding-BjQEH0k2.css": {
+      "bytes": 2641,
+      "sha256": "1739c069d7fc42b5649ab19a61e72ae7ad1b5b3881fe7be44f80f9d565f86cdb"
+    },
+    "assets/TaskFunding-DNQhChGa.js": {
+      "bytes": 9170,
+      "sha256": "9029b9c4f091e906534bafeffc79b137783f17a0485f50dc2c379c0a8606bc61"
+    },
+    "assets/ToolServices-PfugkaDM.js": {
+      "bytes": 10582,
+      "sha256": "83873c1777c7c689f9aadf6f9cf162e4d762b1025fdb4c634f2e19b26167ed37"
+    },
+    "assets/TradingPsychologyReflectionDemo-ScjHuMy5.js": {
+      "bytes": 2460,
+      "sha256": "8226544ab1edd0904777e08e1c898684d8505c7b1fdfd62a5b1e79335e53c5cf"
+    },
+    "assets/TradingPsychologyReflectionDemo-icuizYfI.css": {
+      "bytes": 1894,
+      "sha256": "1c370d9b245f0228cf99c9a889256f6732a98712d05fcc1d298c7a84604cd28a"
+    },
+    "assets/TrendLevelsLessonDemo-BPIZ-h2I.js": {
+      "bytes": 4225,
+      "sha256": "6f262ce1bf05e3dea19ac1b9cae9a400a2b63db9edd90d127b92543e2770363d"
+    },
+    "assets/TrendLevelsLessonDemo-DW6M4fxR.css": {
+      "bytes": 2686,
+      "sha256": "b218377f25bed619e7b77e267d09ffbce47965ee8b1677bc102906ff802c909f"
+    },
+    "assets/TrendStructureLessonDemo-DZJ2Rx8Z.css": {
+      "bytes": 1381,
+      "sha256": "1efd606ed462f79d6b53e200d577e6788227d5f74f526b6efe20afc2214d918c"
+    },
+    "assets/TrendStructureLessonDemo-Dq05ZPsH.js": {
+      "bytes": 3092,
+      "sha256": "fcd62bb7f0f930b666ed8c8697e81f1f3a74bfbb346adcfa2738fb560135525f"
+    },
+    "assets/about-DEVsK3ax.js": {
+      "bytes": 40746,
+      "sha256": "8ef0c53d2226827e083cc40e519d84bb50dd4abe56ea8b6a82de4003bd65efa7"
+    },
+    "assets/ai-bot-DWifgpv2.js": {
+      "bytes": 33742,
+      "sha256": "684476e0751e640a31b209b9abb3b3e3cb8f9adfd23c8ccdf8745ae3f69563ab"
+    },
+    "assets/ai-investing-challenge-B_f1Antc.js": {
+      "bytes": 62121,
+      "sha256": "f76e418add07ba183475ce429a4fd9a24aac5f52f4049e45d7bda246fac821e0"
+    },
+    "assets/ai-trader-challenge-BGJqoxES.js": {
+      "bytes": 60836,
+      "sha256": "0f95372637e3762c41cb43cff845be1eacfe49ede22e67dea41ba6f719d43254"
+    },
+    "assets/app-RSg-gO18.js": {
+      "bytes": 60172,
+      "sha256": "fcb27a4cd5f7ba40aee12282e3ebf5d5c7c62f8f10720934dbef14e2f51cd77d"
+    },
+    "assets/bank-charge-o4oT6uVp.js": {
+      "bytes": 41109,
+      "sha256": "13c32a6481a75bc800b2ef5a1956c1c1e17438a58b35bb14fceebbf34e311947"
+    },
+    "assets/blog-CchWaZb3.js": {
+      "bytes": 34015,
+      "sha256": "9e0346ceadd197671fa27d63acd60dd706d7e1906421f39446b749119c859489"
+    },
+    "assets/blog-ai-trading-B0oQ3fZs.js": {
+      "bytes": 21748,
+      "sha256": "2bb321bb0d73e51fcd716649bd0913a54b008e1db75ab859aa6b1aefcfb8a008"
+    },
+    "assets/blog-ai-trading-bots-for-beginners-DZEVIA3A.js": {
+      "bytes": 41900,
+      "sha256": "f8f72cb36526463634dcd0df860e98d02bdd3d7f1848810cc230bfb317b060dd"
+    },
+    "assets/blog-chart-analysis-BVvVLnUZ.js": {
+      "bytes": 26458,
+      "sha256": "d69ef5fe99f45ac2def1cf5c313c025bb8091bc486cd1c97e8ce6b441007e3a7"
+    },
+    "assets/blog-financial-literacy-LRGE887u.js": {
+      "bytes": 24733,
+      "sha256": "3a4b8e11917e85274b76a2b15bb2f9fef1f44d073b2075edcf56b3107cb3bdc5"
+    },
+    "assets/blog-finelo-ai-trading-bots-launch-DFc6HvPs.js": {
+      "bytes": 46056,
+      "sha256": "0f5087015d07e68751539c86794f6308cb5fdaf65add7af4b8565f18ff1e55fe"
+    },
+    "assets/blog-investing-BJLwkNlf.js": {
+      "bytes": 44353,
+      "sha256": "f447407f12d5f99c16a4d3ae530cd78b1a33c5b9b61ca395d4c65c57ed25e375"
+    },
+    "assets/blog-machine-learning-trading-bot-C7OovFxv.js": {
+      "bytes": 47811,
+      "sha256": "e85628caa430b2b6e45c26fb982b3f7b147234c13d96d72e1526b12494f8851c"
+    },
+    "assets/blog-page-10-4CBqcm-g.js": {
+      "bytes": 31993,
+      "sha256": "8f8fb845d91e4210891e8f663aa406f0429e2c9a07b01fbd987b7fa93a4f10e8"
+    },
+    "assets/blog-page-2-DEq2ihz6.js": {
+      "bytes": 35082,
+      "sha256": "74eb3d6b9fe3922f0efff952fd3103f8320566b13ffc2dbe82c964cae5d12c04"
+    },
+    "assets/blog-page-3-8vb1GGGn.js": {
+      "bytes": 35398,
+      "sha256": "bf468c445b7a6617d952c327a36d44d1f2fe5e555d539ddd96230f66e517290a"
+    },
+    "assets/blog-page-4-CSX7rXWh.js": {
+      "bytes": 35229,
+      "sha256": "149fb4a212574deb61b6f434d9f302bb28943dbdb1123dc7c80746094741e1dd"
+    },
+    "assets/blog-page-5-BZ5pCu6v.js": {
+      "bytes": 36072,
+      "sha256": "e17c2f98700bcf18139d0df2ffec73caf544daf9c66981f355d52921d624cdfa"
+    },
+    "assets/blog-page-6-DMj3XQmU.js": {
+      "bytes": 35479,
+      "sha256": "0c6d1ccf23d7aa03ab05a8da36f11b4c7ac974c0d3fe98c2fb7046050416cb67"
+    },
+    "assets/blog-page-7-Bwo-4XAE.js": {
+      "bytes": 37165,
+      "sha256": "19e8243d90dd26bd76219d71dca04ba18841601dc914c48acc979666e751238e"
+    },
+    "assets/blog-page-8-BiRf7y0N.js": {
+      "bytes": 36469,
+      "sha256": "4137ca79b9049babd6df535c549327158dca255f174b3e9857583063b7c235af"
+    },
+    "assets/blog-page-9-CsNCjeg1.js": {
+      "bytes": 37048,
+      "sha256": "dc0e961e64fc941ea425de58561bf03f6324a2416b47c0dde130b64cd2f48411"
+    },
+    "assets/blog-trading-Bi7ElktE.js": {
+      "bytes": 59853,
+      "sha256": "0aa647b72b1dbd187c550a0fa21a9c6043cf4ae86b3597110e844405eb5009e0"
+    },
+    "assets/blog-trading-bot-strategies-U4aRczqb.js": {
+      "bytes": 49461,
+      "sha256": "86657de4018e3952ec5800feaf5f3fd23d434cb5e3c10b0a7826268c6723b5d7"
+    },
+    "assets/cancel-BJoj9pok.js": {
+      "bytes": 39554,
+      "sha256": "b14e49bd297c0c509a88615fab40ec75aef8f5a3193639a4804e216008a28875"
+    },
+    "assets/challenges-BsZsV4hN.js": {
+      "bytes": 64075,
+      "sha256": "37a19513cad6db141852355ede98e07301f74a98a2a3d6c11ad01d4f0e67d75f"
+    },
+    "assets/community-SSi-uNsQ.js": {
+      "bytes": 34631,
+      "sha256": "c0760b10b61f23322b5240cbad28928cbb6cff1a7235c8780e0de37265fbfa13"
+    },
+    "assets/compound-BvuCViaN.js": {
+      "bytes": 56606,
+      "sha256": "743a03e30d389e14d84f9aad583f8ba67f90af288af205af8925f0e10d33d443"
+    },
+    "assets/courseOutlines-ohERFt2d.js": {
+      "bytes": 53912,
+      "sha256": "eb4dfa8287c9355898ce7d6743d1d1fb98a69b18fd08a0f1bc537f73a48d773b"
+    },
+    "assets/courseWorkspace-BylU7cMc.js": {
+      "bytes": 968,
+      "sha256": "86378d8eeca90ece9f25f51fcae0ab7f5abf7dc7ec3094eb245fb27afb19cc77"
+    },
+    "assets/diagnostics-B8twR0q2.js": {
+      "bytes": 2367,
+      "sha256": "e9bb0a2aa827878383e341ac4ed1d46d43a4cab2bce7313b4068cac8d8dd31fb"
+    },
+    "assets/dist-l72PKGDX.js": {
+      "bytes": 7296,
+      "sha256": "1c588f2fb04fd671de052aab1be3e52b89bccadcfc0718f7ab079ca41819bdfd"
+    },
+    "assets/download-CVqlztna.js": {
+      "bytes": 40700,
+      "sha256": "2ddbce7248c50f4d3a97f2b81474818e2c68b217ea2a0d6a87501c5cec459fcb"
+    },
+    "assets/fetchWithDeadline-CqDC4m51.js": {
+      "bytes": 216409,
+      "sha256": "b7355f1fd3c71c20d86a0a0eca1ec852b79f960ed203af7f191679cbd3c492b3"
+    },
+    "assets/finelo-DksaTzy6.css": {
+      "bytes": 2635,
+      "sha256": "0f812dd8bd40b01d18651e2e7f3781aee4d4bb9ad1042988c6ac3ca3ff80524e"
+    },
+    "assets/image-metadata-jBzq76jy.js": {
+      "bytes": 8960,
+      "sha256": "d1ae6bc63e5a4d34d5f2e913b75f710fe0435297f847d108f77e786627aa9e6f"
+    },
+    "assets/index-BGvOMF8J.css": {
+      "bytes": 114435,
+      "sha256": "3a7a4f4ff7a181ecafe6c279cf832530b485dede4fcc3136236d2eefaae18cc5"
+    },
+    "assets/index-C-3MR1BU.js": {
+      "bytes": 463769,
+      "sha256": "03b5fdfdd52a6259497cb46e9f7e533b222695cf3864bc2ef9f2e2517a0e45a9"
+    },
+    "assets/investing-challenge-CcNRgHYI.js": {
+      "bytes": 62242,
+      "sha256": "52721f100f226b5854acd72b4a4fc0415b66e118f1c11b21af189712466afd36"
+    },
+    "assets/learnerData-j1XE0rxD.js": {
+      "bytes": 3122,
+      "sha256": "f40518f071efae1b64db658f528888f77ef62609a841e1fc3f98d3236529c730"
+    },
+    "assets/learnerGeneration-BkeV0R2q.js": {
+      "bytes": 1163,
+      "sha256": "18e607ccae6198db8a575644cf18e0aee39760fd0922d3aa2a4d5475335bc674"
+    },
+    "assets/learnerWorkspace-Dq0gk-A0.js": {
+      "bytes": 554,
+      "sha256": "7e27732a22b3acbdd404c1646634925d2c8c790a6c97f653a2f3c3b918905352"
+    },
+    "assets/lightweight-charts.production-DGs1Zrt0.js": {
+      "bytes": 168920,
+      "sha256": "3e639a19c51e59ddd2aaf65ffa3c8bee260f3481aabe131c2f220ad93b3611ed"
+    },
+    "assets/localPractice-DvmOxwSW.js": {
+      "bytes": 4646,
+      "sha256": "d6526117a1ccf595665c29cff0b5167088ce304d2aaca5870850d42eb258a475"
+    },
+    "assets/login-iUqWB_t3.js": {
+      "bytes": 41565,
+      "sha256": "91d4ff1656a1938caccf0273bf2cd351c78a88291297506a62a16738e633f9d4"
+    },
+    "assets/media-DW05Lzbt.js": {
+      "bytes": 33344,
+      "sha256": "cdb76b62dd081e1d86e0cbd8a27e744e32ba56cb42eebe7aaa097ee6a8078031"
+    },
+    "assets/optionsSandbox-CWXYz1wX.js": {
+      "bytes": 4958,
+      "sha256": "99419b8b701cd94902559d8c71f9211e2efa4a528858d472321e4b4e67123dab"
+    },
+    "assets/practice-CZvc8rno.css": {
+      "bytes": 2329,
+      "sha256": "f326c2d2d095c297cb83a8e350100be160d03730a4c76f8c4ba40f66b3bee304"
+    },
+    "assets/pricing-Cqx69QbV.js": {
+      "bytes": 39990,
+      "sha256": "a43b2eec0723bd245238b6fcd190e6c0b713c4ab43450bc38df90ff5a7effa11"
+    },
+    "assets/refund-DQCj_8fu.js": {
+      "bytes": 39536,
+      "sha256": "daa4feea59f087ab13d3e4e18ecb90e9625eef9a420336c65db9b78efa9c170c"
+    },
+    "assets/retirement-DX3riTHF.js": {
+      "bytes": 56215,
+      "sha256": "c160684b9ed77d26569c2c14f4af62237a008bc5a2ab48e44242289b8f01a715"
+    },
+    "assets/reviews-CeRcM-xr.js": {
+      "bytes": 36646,
+      "sha256": "30297f7d688273e6ccd217bf25d8d9fe22919c66027180b127e527f59f29c86e"
+    },
+    "assets/rolldown-runtime-XKyaHtl9.js": {
+      "bytes": 726,
+      "sha256": "548d1dbf321e7d2ae804fcc158b588706a7c52f8ca175de1490c6ccb4dbe55b7"
+    },
+    "assets/savings-Bwj8PnRc.js": {
+      "bytes": 56206,
+      "sha256": "f8fe454aab0739fa9ef70c4410f9518ff2cede1dbb7dced6a6e4d5ff5733a424"
+    },
+    "assets/social-security-t8-Y6YfO.js": {
+      "bytes": 58410,
+      "sha256": "8cd2b7999258800e4199764077d5193fecf22fab602ad10f4a025e506c786742"
+    },
+    "assets/storageLock-CQ_EbcGr.js": {
+      "bytes": 461,
+      "sha256": "b3078846346d44b051ad3c5a87ea1707ab53e6add9c360fcd3b4d257d1184988"
+    },
+    "assets/supabaseClient-BqpjCcKJ.js": {
+      "bytes": 310492,
+      "sha256": "96004a3d5fad15d915afa6bb06c3618b9600b46d77f18a05d0aa6738c4f29cfe"
+    },
+    "assets/support-H6-xg-83.js": {
+      "bytes": 39991,
+      "sha256": "d266bffdc15b7d1531378918ddd19f2e02e23ee30b61f55600dea4c4f3afe374"
+    },
+    "assets/toolDisplay-CSem5B_T.js": {
+      "bytes": 278,
+      "sha256": "c2c47a1fa2bdccc7e3c7ad9d639b036da2356eb93e8c2fed65c62cb4c568df57"
+    },
+    "assets/tools-C8oh_0E2.js": {
+      "bytes": 54096,
+      "sha256": "e7d3898b89d24968e225298a5acbef34df9e0e1cbfa41388dc0c5c76dc2fdd2b"
+    },
+    "assets/trading-challenge-D9XBtBGv.js": {
+      "bytes": 61754,
+      "sha256": "6a17df3b4d2fcca371716840132c4bdb957922d89f6f4aed0521d8bc006cebaf"
+    },
+    "assets/ui-runtime-BFBBXOgR.js": {
+      "bytes": 258244,
+      "sha256": "caa98e4bce2778e135926cec01b234759ea125846b9c4e8453f4927201f1af41"
+    },
+    "assets/usePracticeStore-D9gt5gWF.js": {
+      "bytes": 1925,
+      "sha256": "243656a41be477405e6ef65ccbe44d743ceacde3476db13ee54558651b31a496"
+    },
+    "assets/web-C8gH009z.js": {
+      "bytes": 8471,
+      "sha256": "999ae7d640c3fd7eafb5a61424ccd029846b01d79eecbfef29bc694a90d8a97b"
+    },
+    "assets/web-CbloPFrL.js": {
+      "bytes": 364,
+      "sha256": "8678eea04768edc8023f545afcdc548c68572454bff66f74733502934459f79a"
+    },
+    "assets/web-OrtZtjmD.js": {
+      "bytes": 1191,
+      "sha256": "182e5c8b9c6c8f55c97ede75c82729210f1dde54e92bdfd5abcaa357ad76d46a"
+    },
+    "assets/web-lFPOL-3h.js": {
+      "bytes": 759,
+      "sha256": "f1d22a6c702b9fc969d3ae23769f27313d49042bf2fff957ed0e19486b2c1c33"
+    },
+    "index.html": {
+      "bytes": 2618,
+      "sha256": "0196d943bf987db48d20c364b36ea077556ab503b4b18cefa721f7ff229dc6f3"
+    }
+  }
+}
